@@ -19,8 +19,6 @@ Y aquí mi demostración de la conectividad correcta entre el repositorio local 
 
  ![conectividad_con_remoto.png](https://github.com/ChinChainis/Proyecto_Reparahorarios_IV2425/blob/Objetivo-0/docs/conectividad_con_remoto.png)
 
-Descripción del proyecto en archivo README.md del 
-
-[README.md](https://github.com/ChinChainis/Proyecto_Reparahorarios_IV2425/blob/Objetivo-0/README.md)
+Descripción del proyecto en archivo en [README.md](https://github.com/ChinChainis/Proyecto_Reparahorarios_IV2425/blob/Objetivo-0/README.md)
 
 
