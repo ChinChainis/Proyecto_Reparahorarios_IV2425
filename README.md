@@ -14,3 +14,5 @@ El programa debe tener en cuenta las asignaturas que quiera el alumno o en su de
 También debe tener en cuenta las preferencias de turnos de por la mañana o tarde o ramas a excluir para no tener que introducir las asignaturas una a una de la mención a evitar.
 
 Con un mayor avance del proyecto se podría implementar una función de obtener los examenes finales/entregas finales para comprobar si algún día coincide asemejándose a una aplicación de calendario pero siempre manteniendo informado al usuario de las asignaturas afectadas de forma personalizada.
+
+Documentación del proyecto en la carpeta [docs](https://github.com/ChinChainis/Proyecto_Reparahorarios_IV2425/blob/Objetivo-0/docs/README.md)
