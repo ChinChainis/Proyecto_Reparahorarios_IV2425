@@ -7,7 +7,8 @@ ___
 Carpeta de configuraciones y documentación del proyecto para Infraestructura Virtual.
 
 Aquí se podrá ver los ficheros de configuración del proyecto, a día de hoy para el objetivo 0 incluye una captura de pantalla al apartado de settings de github
- [settings_git.pgn](https://github.com/ChinChainis/Proyecto_Reparahorarios_IV2425/blob/Objetivo-0/docs/settings_git.png)
+ ![settings_git.pgn](https://github.com/ChinChainis/Proyecto_Reparahorarios_IV2425/blob/Objetivo-0/docs/settings_git.png)
+
 
 Descripción del proyecto en archivo README.md del 
 
