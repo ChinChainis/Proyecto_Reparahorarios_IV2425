@@ -6,7 +6,7 @@ ___
 
 
 
-[README.md]https://github.com/ChinChainis/Proyecto_Reparahorarios_IV2425/blob/Objetivo-0/README.md
+[README.md](https://github.com/ChinChainis/Proyecto_Reparahorarios_IV2425/blob/Objetivo-0/README.md)
 
 La documentación de este proyecto está realizada con `LaTeX`, por lo
 tanto para generar el archivo PDF necesitaremos instalar `TeXLive` en
