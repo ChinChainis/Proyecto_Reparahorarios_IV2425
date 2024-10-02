@@ -9,4 +9,4 @@ Rosana necesita crear un horario del grado de matemáticas con 2 asignaturas obl
 ### [Historia de Usuario 3]
 Tulio desea saber cualquier combinación de 4 asignaturas que le permita asisitr a 4o curso de ingeniería informática.
 
-Terminología empleada [terminos.md](https://github.com/ChinChainis/Proyecto_Reparahorarios_IV2425/blob/Objetivo-0/docs/terminos.md)
+Terminología empleada [terminos.md](https://github.com/ChinChainis/Proyecto_Reparahorarios_IV2425/blob/Objetivo-1/docs/terminos.md)
