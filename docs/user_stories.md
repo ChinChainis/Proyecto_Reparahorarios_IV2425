@@ -8,7 +8,7 @@ A principios de septiembre he visto que en la confirmación de la matrícula me 
 Soy Rosana de 3º de Matemáticas y recientemente he alterado mi matrícula para tener las optativas que quería de distintas ramas pero se solapan muchas entre ellas con las asignaturas obligatorias que he elegido, me gustaría tener opción de elegir por lo menos además de 2 asignaturas obligatorias de 3o, 3 asignaturas optativas de 4o.
 
 ### [HU3] Tulio de Ingeniería Informática
-Hola soy Tulio del grado de Informática de la UGR, estoy en 4º curso y y querría tener 4 optativas para poder cursar el TFG pero no sé cuáles pedir para que para poder ir a todas las clases.
+Hola soy Tulio del grado de Informática de la UGR, estoy en 4º curso y puedo elegir hasta 4 optativas para poder cursar el TFG pero no sé cuáles pedir para que para poder ir a todas las clases. No me importa tener solo 1 asignatura pero cuantas más tenga mejor si pudiera saber qué opciones tengo.
 
 Terminología empleada [terminos.md](https://github.com/ChinChainis/Proyecto_Reparahorarios_IV2425/blob/Objetivo-1/docs/terminos.md)
 

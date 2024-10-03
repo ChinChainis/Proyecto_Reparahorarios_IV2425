@@ -24,5 +24,5 @@ Fase de primeras historias de usuarios y milestones del proyecto para su posteri
 
 Ejemplos de posibles peticiones de clientes [Historias de usuario](https://github.com/ChinChainis/Proyecto_Reparahorarios_IV2425/blob/Objetivo-1/docs/user_stories.md)
 
-Hitos a completar [Historias de usuario](https://github.com/ChinChainis/Proyecto_Reparahorarios_IV2425/blob/Objetivo-1/docs/milestones.md)
+Hitos a completar [Hitos](https://github.com/ChinChainis/Proyecto_Reparahorarios_IV2425/blob/Objetivo-1/docs/milestones.md)
 
