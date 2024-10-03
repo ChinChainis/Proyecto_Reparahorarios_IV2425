@@ -22,5 +22,7 @@ Documentación del proyecto en la carpeta [docs](https://github.com/ChinChainis/
 
 Fase de primeras historias de usuarios y milestones del proyecto para su posterior codificación. 
 
-Documentación del proyecto en la carpeta [docs](https://github.com/ChinChainis/Proyecto_Reparahorarios_IV2425/blob/Objetivo-1/docs/user_stories.md)
+Ejemplos de posibles peticiones de clientes [Historias de usuario](https://github.com/ChinChainis/Proyecto_Reparahorarios_IV2425/blob/Objetivo-1/docs/user_stories.md)
+
+Hitos a completar [Historias de usuario](https://github.com/ChinChainis/Proyecto_Reparahorarios_IV2425/blob/Objetivo-1/docs/milestones.md)
 
