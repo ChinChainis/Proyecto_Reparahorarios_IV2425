@@ -1,9 +1,5 @@
 ## Milestones/Hitos
 
-### [Milestone 0] Simulación de clientes y planificación del proyecto
-Crear varias situaciones de clientes posibles para tener una visión de los servicios a ofrecer en la aplicación. Creación de historias de usuario y sus user journeys para mejor entendimiento del problema.
-
-
 ### [Milestone 1] Creación de un portal online de acceso
 Necesito que la aplicación se ejecute en un navegador y sea de fácil acceso, aún no tendremos un sistema de login de usuarios pero se necesitaría que la arquitectura básica funcione. Levantar una página web en un servidor para acceso desde distintos dispositivos, dado que por ejemplo el cliente #2 y #3 pertenecen a distintos grados necesitan acceso remoto desde distintos puntos.
 
