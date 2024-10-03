@@ -1,7 +1,8 @@
 # IV_AntonioSanchezAlcaraz_2425
 Repositorio para la asignatura de Infraestructura Virtual
 
-## Objetivo 0
+Configuración del repositorio [configuracion.md](https://github.com/ChinChainis/Proyecto_Reparahorarios_IV2425/blob/Objetivo-1/docs/Configuracion.md)
+
 
 ## *Aplicación de administración de horarios*
 
@@ -17,12 +18,13 @@ Con un mayor avance del proyecto se podría implementar una función de obtener 
 
 Documentación del proyecto en la carpeta [docs](https://github.com/ChinChainis/Proyecto_Reparahorarios_IV2425/blob/Objetivo-0/docs/README.md)
 
-## Objetivo 1
-### Estructura general y planificación del proyecto
+
+### Planificación del proyecto
 
 Fase de primeras historias de usuarios y milestones del proyecto para su posterior codificación. 
 
 Ejemplos de posibles peticiones de clientes [Historias de usuario](https://github.com/ChinChainis/Proyecto_Reparahorarios_IV2425/blob/Objetivo-1/docs/user_stories.md)
+ o para mejor comprensión [User journeys](https://github.com/ChinChainis/Proyecto_Reparahorarios_IV2425/blob/Objetivo-1/docs/user_journeys.md)
 
 Hitos a completar [Hitos](https://github.com/ChinChainis/Proyecto_Reparahorarios_IV2425/blob/Objetivo-1/docs/milestones.md)
 
