@@ -1,13 +1,14 @@
 ## Milestones/Hitos
 
 ### [Milestone 0] Estructura del problema
-El problema de #2 , #3 , y #4 reside en no poder hacer sus horarios sin solapamientos o no saber cómo organizarse las clases, necesitado poder trabajar con horarios es decir necesitamos saber asignaturas, sus correspondientes horas, clases, grupos y ramas a las que pertenezcan.
-PMV: Estructura del problema
-Viabilidad: Estimada por los revisores asignados.
+Análisis detallado de las Historias de Usuario (HU). #2 , #3 , y #4 no pueden hacer sus horarios de clases sin solapamientos o no saber cómo organizarse las clases.
+PMV: Análisis de elementos involucrados en el proyecto: horario, clase, grupo, grado, turno, curso, rama... entre otras a tener en cuenta para el filtro necesitado.
+El programa tendrá en cuenta todos esos elementos para la relación entre ellos para asegurar la mínima alteración.
+Viabilidad: incluir las entidades clave del dominio y sus relaciones correctamente implementadas en el código; además de una explicación resumida desde varios puntos de vista de clientes individuales para obtener una visión global del proyecto a desarrollar.
 
 ### [Milestone 1] Implementación lógica de negocio
-Necesito organizar asignaturas de horarios, grupos, ramas y cursos concretos con otro para obtener un horario funcional.
-PMV: Creación de horarios por combinatoria de asignaturas
+Necesito generar un nuevo horario u horarios partiendo de asignaturas, grupos, ramas y cursos concretos de un grado que sea factible, es decir que no haya ningún impedimento a la hora de asistir a una asginatura por coincidir con otra y que cumpla los criterios pedidos por el cliente.
+PMV: Creación de horarios por combinatoria de asignaturas, meter datos tipo diccionario de ejemplo y elaborar un horario coherente sin solapamientos.
 Viabilidad: Pasar los test correspondientes.
 
 ### [Milestone 2] Filtro de los distintos valores de un horario
