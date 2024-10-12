@@ -6,10 +6,10 @@ Análisis detallado de las Historias de Usuario (HU) que no pueden hacer sus hor
 PMV: Código que atienda a las necesidades de los clientes.
 El programa tendrá en cuenta todos esos elementos para la relación entre ellos para asegurar la mínima alteración.
 
-Viabilidad: Necesario ser atendido por revisor externo.
+Viabilidad: Deducir una solución para el problema presentado en las HUs.
 
 ### [Milestone 1] Implementación lógica de negocio
-Necesito generar un nuevo horario u horarios partiendo de asignaturas, grupos, turnos y cursos concretos de un grado que sea factible, es decir que no haya ningún impedimento a la hora de asistir a una asginatura por coincidir con otra y que cumpla los criterios pedidos por el cliente.
+Necesito generar un nuevo horario u horarios partiendo de asignaturas, grupos, turnos y cursos concretos de un grado que sea factible, es decir que no haya ningún impedimento a la hora de asistir a una asginatura por coincidir con otra como en #2 y que cumpla los criterios pedidos por el cliente.
 
 PMV: Creación de horarios por combinatoria de asignaturas, meter datos tipo diccionario de ejemplo y elaborar un horario coherente sin solapamientos.
 
@@ -23,7 +23,7 @@ PMV: filtro según criterios del cliente
 Viabilidad: No descarta ningún elemento que cumpla las condiciones del filtro.
 
 ### [Milestone 3] Portal web abierto al público
-Ofreciendo un servicio a distintos alumnos independientemente del grado y soportado online, solo buscaría los datos con una dirección a sus respectivos horarios. Servicio web similar al proceso de alteración de matrícula de un grado.
+Ofreciendo un servicio a distintos alumnos independientemente del grado como #3 y soportado online, solo buscaría los datos con una dirección a sus respectivos horarios. Servicio web similar al proceso de alteración de matrícula de un grado.
 
 PMV: Página web de acceso por usuario externos. 
 
