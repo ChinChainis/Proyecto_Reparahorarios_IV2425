@@ -3,7 +3,8 @@
 ### [Milestone 0] Modelo del problema
 Análisis detallado de las Historias de Usuario (HU) que no pueden hacer sus horarios de clases sin solapamientos o no saber cómo organizarse las clases.
 
-PMV: Código que atienda a las necesidades de los clientes.
+PMV: Código que atienda a las necesidades de los clientes, programa de organización de horarios.
+
 El programa tendrá en cuenta todos esos elementos para la relación entre ellos para asegurar la mínima alteración.
 
 Viabilidad: Deducir una solución para el problema presentado en las HUs.
