@@ -9,6 +9,8 @@ El programa tendrá en cuenta todos esos elementos para la relación entre ellos
 
 Viabilidad: Deducir una solución para el problema presentado en las HUs.
 
+Entidades encontradas en los HUs son implementadas en código fielmente.
+
 ### [Milestone 1] Implementación lógica de negocio
 Necesito generar un nuevo horario u horarios partiendo de asignaturas, grupos, turnos y cursos concretos de un grado que sea factible, es decir que no haya ningún impedimento a la hora de asistir a una asginatura por coincidir con otra como en #2 y que cumpla los criterios pedidos por el cliente.
 
