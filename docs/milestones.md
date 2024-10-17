@@ -1,11 +1,11 @@
 ## Milestones/Hitos
 
 ### [Milestone 0] Modelo del problema
-Análisis detallado de las Historias de Usuario (HU) que no pueden hacer sus horarios de clases sin solapamientos o no saber cómo organizarse las clases.
+Análisis detallado de las Historias de Usuario (HU), estos clientes no pueden hacer sus horarios de clases sin solapamientos o no saber cómo organizarse las horas de clases.
 
 PMV: Código que atienda a las necesidades de los clientes, programa de organización de horarios.
 
-El programa tendrá en cuenta todos esos elementos para la relación entre ellos para asegurar la mínima alteración.
+El programa tendrá en cuenta todos esos elementos con sus atributos individuales (horas, grupos...) para la relación entre ellos para asegurar la mínima alteración.
 
 Viabilidad: Deducir una solución para el problema presentado en las HUs.
 
@@ -20,6 +20,7 @@ Viabilidad: Cuando genere un horario fiel a los datos originales y sin que coinc
 
 ### [Milestone 2] Filtro de los distintos valores de un horario
 Leer y categorizar la información obtenida de un horario para estudiar su correcta orgranización, obtener sus parámetros de horas a cursar, grado y curso al que pertenecen cada una.
+Por ejemplo #2 solo quiere asignaturas con horario de turno de tarde.
 
 PMV: filtro según criterios del cliente
 
