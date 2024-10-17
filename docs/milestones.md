@@ -3,11 +3,11 @@
 ### [Milestone 0] Modelo del problema
 Análisis detallado de las Historias de Usuario (#2, #3, #4), estos clientes no pueden hacer sus horarios de clases sin solapamientos o no saber cómo organizarse las horas de clases.
 
-PMV: Código que atienda a las peticiones de #2, #3, #4 a un nivel básico, programa de organización de horarios.
+PMV: Modelo incial del proyecto que atienda a las peticiones de #2, #3, #4 a un nivel básico, programa de organización de horarios.
 
 El programa tendrá en cuenta todos esos elementos con sus atributos individuales para la relación entre ellos para asegurar la mínima alteración.
 
-Viabilidad: Deducir una solución para el problema presentado en las HUs.
+Viabilidad: Presentar una lógica y elementos de un problema de forma que se pueda formular una solución para el problema presentado en las HUs #2, #3, #4 .
 
 Entidades encontradas en los HUs son implementadas en código fielmente.
 
