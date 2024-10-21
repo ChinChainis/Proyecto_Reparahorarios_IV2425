@@ -1,7 +1,7 @@
 ## Milestones/Hitos
 
 ### [Milestone 0] Modelo del problema
-Se debe realizar una estructura simple del problema que sirva de base para las Historias de Usuario (#2, #3, #4), estos clientes no pueden hacer sus horarios de clases sin solapamientos o no saber cómo organizarse las horas de clases.
+Se debe realizar una estructura simple del problema que sirva de base para describir los problemas de las Historias de Usuario (#2, #3, #4), estos clientes no pueden hacer sus horarios de clases sin solapamientos o no saber cómo organizarse las horas de clases.
 
 PMV: Modelo incial del proyecto que atienda a las peticiones de #2, #3, #4 a un nivel básico, programa de organización de horarios.
 
