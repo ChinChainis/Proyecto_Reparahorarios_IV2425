@@ -12,9 +12,11 @@ Viabilidad: Presentar una lógica y elementos de un problema de forma que se pue
 Entidades encontradas en los HUs son implementadas en código fielmente.
 
 ### [Milestone 1] Implementación lógica de negocio
-Necesito generar un nuevo horario u horarios partiendo de asignaturas, grupos, turnos y cursos concretos de un grado que sea factible, es decir que no haya ningún impedimento a la hora de asistir a una asginatura por coincidir con otra como en #2 y que cumpla los criterios pedidos por el cliente.
+Necesito generar un nuevo horario/s partiendo de asignaturas, grupos, turnos y cursos concretos de un grado que sea factible, es decir que no haya ningún impedimento a la hora de asistir a una asginatura por coincidir con otra.
 
 PMV: Creación de horarios por combinatoria de asignaturas, meter datos tipo diccionario de ejemplo y elaborar un horario coherente sin solapamientos.
+
+Independiente del grado, para aceptar las peticiones de #2, #3 y #4.
 
 Viabilidad: Cuando genere un horario fiel a los datos originales y sin que coincidan.
 
