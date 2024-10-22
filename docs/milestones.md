@@ -13,13 +13,11 @@ El código debe permitir incorporar nuevas funcionalidades para el manejo de dat
 Entidades encontradas en los HUs son implementadas en código.
 
 ### [Milestone 1] Implementación lógica de negocio
-Necesito generar un nuevo horario/s de un grado que sea factible, es decir que no haya ningún impedimento a la hora de asistir a una asginatura por coincidir con otra.
+Necesito generar un nuevo horario/s de un grado que sea factible, es decir que no haya ningún impedimento a la hora de asistir a una asginatura por coincidir con otra (#2 o #3). 
 
-PMV: Creación de horarios por combinatoria de asignaturas, meter datos tipo diccionario de ejemplo y elaborar un horario coherente sin solapamientos.
+PMV: Código funcional que nos permita crear horarios por combinatoria de asignaturas sin solapamientos y respetando las horas originales de las asignaturas.
 
-Independiente del grado, para aceptar las peticiones de #2, #3 y #4.
-
-Viabilidad: Cuando genere un horario fiel a los datos originales y sin que coincidan.
+Viabilidad: Cuando genere un horario fiel a los datos originales y sin que coincidan mediante datos de prueba tipo diccionario con atributos de hora y asignatura.
 
 ### [Milestone 2] Filtro de los distintos valores de un horario
 Leer y categorizar la información obtenida de un horario para estudiar su correcta orgranización, obtener sus parámetros de horas a cursar, grado y curso al que pertenecen cada una.
