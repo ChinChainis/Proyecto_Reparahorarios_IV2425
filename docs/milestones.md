@@ -1,18 +1,19 @@
 ## Milestones/Hitos
 
 ### [Milestone 0] Modelo del problema
-Elaborar un modelo simple que sirva de base para describir los problemas de las Historias de Usuario (#2, #3, #4).
 
-PMV: Modelo incial del proyecto que atienda a las peticiones de #2, #3, #4 a un nivel básico, sobre un programa de organización de horarios.
+Elaborar un modelo simple que sirva de base para describir los problemas de las Historias de Usuario.
 
-El modelo vendrá detallado con los elementos y sus atributos individuales empleados.
+PMV: Código funcional que englobe a los elementos del proyecto a trabajar permitiendo de organización de horarios sin superposición de asignaturas.
 
 Viabilidad: Presentar una lógica y elementos de un problema de forma que se pueda formular una solución para el problema presentado en las HUs #2, #3, #4 .
 
-Entidades encontradas en los HUs son implementadas en código fielmente.
+El código debe permitir incorporar nuevas funcionalidades para el manejo de datos específicos como grados concretos o turnos de asistencia.
+
+Entidades encontradas en los HUs son implementadas en código.
 
 ### [Milestone 1] Implementación lógica de negocio
-Necesito generar un nuevo horario/s partiendo de asignaturas, grupos, turnos y cursos concretos de un grado que sea factible, es decir que no haya ningún impedimento a la hora de asistir a una asginatura por coincidir con otra.
+Necesito generar un nuevo horario/s de un grado que sea factible, es decir que no haya ningún impedimento a la hora de asistir a una asginatura por coincidir con otra.
 
 PMV: Creación de horarios por combinatoria de asignaturas, meter datos tipo diccionario de ejemplo y elaborar un horario coherente sin solapamientos.
 
