@@ -1,11 +1,11 @@
 ## Milestones/Hitos
 
 ### [Milestone 0] Modelo del problema
-Se debe realizar una estructura simple del problema que sirva de base para describir los problemas de las Historias de Usuario (#2, #3, #4), estos clientes no pueden hacer sus horarios de clases sin solapamientos o no saber cómo organizarse las horas de clases.
+Elaborar un modelo simple que sirva de base para describir los problemas de las Historias de Usuario (#2, #3, #4).
 
-PMV: Modelo incial del proyecto que atienda a las peticiones de #2, #3, #4 a un nivel básico, programa de organización de horarios.
+PMV: Modelo incial del proyecto que atienda a las peticiones de #2, #3, #4 a un nivel básico, sobre un programa de organización de horarios.
 
-El programa tendrá en cuenta todos esos elementos con sus atributos individuales para la relación entre ellos para asegurar la mínima alteración.
+El modelo vendrá detallado con los elementos y sus atributos individuales empleados.
 
 Viabilidad: Presentar una lógica y elementos de un problema de forma que se pueda formular una solución para el problema presentado en las HUs #2, #3, #4 .
 
