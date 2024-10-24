@@ -2,9 +2,9 @@
 
 ### [Milestone 0] Modelo del problema
 
-Elaborar un modelo simple que sirva de base para describir los problemas de las Historias de Usuario.
+Diseñar un programa que permita a #2 , #3 , #4 poder tener un horario escolar sin solapamientos y con los criterios que cada individuo quiera.
 
-PMV: Código funcional que englobe a los elementos del proyecto a trabajar permitiendo de organización de horarios sin superposición de asignaturas.
+PMV: Código funcional que englobe a los elementos del proyecto a trabajar permitiendo la organización de horarios sin superposición de asignaturas.
 
 Viabilidad: Presentar una lógica y elementos de un problema de forma que se pueda formular una solución para el problema presentado en las HUs #2, #3, #4 .
 
@@ -13,7 +13,7 @@ El código debe permitir incorporar nuevas funcionalidades para el manejo de dat
 Entidades encontradas en los HUs son implementadas en código.
 
 ### [Milestone 1] Implementación lógica de negocio
-Necesito generar un nuevo horario/s de un grado que sea factible, es decir que no haya ningún impedimento a la hora de asistir a una asginatura por coincidir con otra (#2 o #3). 
+Necesito generar un nuevo horario/s de un grado que sea factible, es decir que no haya ningún impedimento a la hora de asistir a una asignatura por coincidir con otra (#2 o #3). 
 
 PMV: Código funcional que nos permita crear horarios por combinatoria de asignaturas sin solapamientos y respetando las horas originales de las asignaturas.
 
