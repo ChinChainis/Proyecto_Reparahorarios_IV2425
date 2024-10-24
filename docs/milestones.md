@@ -11,11 +11,13 @@ Viabilidad: Presentar una lógica y elementos de un problema de forma que se pue
 Será viable cuando el desarrollador, ajeno al contexto de creación del programa, entienda y pueda desarrollar un proyecto que atienda a los problemas de los clientes referenciados.
 
 ### [Milestone 1] Implementación lógica de negocio
-Necesito generar un nuevo horario/s de un grado que sea factible, es decir que no haya ningún impedimento a la hora de asistir a una asignatura por coincidir con otra (#2 o #3). 
+Necesito generar un nuevo horario/s de un grado que sea factible, es decir que no haya ningún impedimento a la hora de asistir a una asignatura por coincidir con otra. 
 
 PMV: Código funcional que nos permita crear horarios por combinatoria de asignaturas sin solapamientos y respetando las horas originales de las asignaturas.
 
 Viabilidad: Cuando genere un horario fiel a los datos originales y sin que coincidan mediante datos de prueba tipo diccionario con atributos de hora y asignatura.
+
+Debe poder satisfacer tanto los criterios descritos en el milestone 0. 
 
 ### [Milestone 2] Filtro de los distintos valores de un horario
 Leer y categorizar la información obtenida de un horario para estudiar su correcta orgranización, obtener sus parámetros de horas a cursar, grado y curso al que pertenecen cada una.
