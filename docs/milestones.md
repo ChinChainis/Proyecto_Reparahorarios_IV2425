@@ -4,13 +4,11 @@
 
 Diseñar un programa que permita a #2 , #3 , #4 poder tener un horario escolar sin solapamientos y con los criterios que cada individuo quiera.
 
-PMV: Código funcional que englobe a los elementos del proyecto a trabajar permitiendo la organización de horarios sin superposición de asignaturas.
+PMV: Aplicación que atienda a las peticiones de los clientes (HUs #2 #3 #4) y englobe a los elementos del proyecto a trabajar permitiendo la organización de horarios sin superposición de asignaturas.
 
 Viabilidad: Presentar una lógica y elementos de un problema de forma que se pueda formular una solución para el problema presentado en las HUs #2, #3, #4 .
 
-El código debe permitir incorporar nuevas funcionalidades para el manejo de datos específicos como grados concretos o turnos de asistencia.
-
-Entidades encontradas en los HUs son implementadas en código.
+Será viable cuando el desarrollador, ajeno al contexto de creación del programa, entienda y pueda desarrollar un proyecto que atienda a los problemas de los clientes referenciados.
 
 ### [Milestone 1] Implementación lógica de negocio
 Necesito generar un nuevo horario/s de un grado que sea factible, es decir que no haya ningún impedimento a la hora de asistir a una asignatura por coincidir con otra (#2 o #3). 
