@@ -6,7 +6,7 @@ Diseñar un programa que permita a #2 poder tener un horario escolar sin solapam
 
 PMV: Descripción concisa de una aplicación que atienda a las peticiones de los clientes y englobe a los elementos del proyecto a trabajar permitiendo la organización de horarios sin superposición de asignaturas.
 
-Viabilidad: Presentar una lógica y elementos de un problema de forma que se pueda formular una solución para el problema presentado en las HUs #2.
+Viabilidad: Cuando la descripción ofrecida sea lo suficientemente precisa de forma que se pueda formular una solución para el problema presentado en las HUs #2.
 
 Será viable cuando el desarrollador, ajeno al contexto de creación del programa, entienda y pueda desarrollar un proyecto que atienda a los problemas de los clientes referenciados.
 
