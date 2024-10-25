@@ -4,7 +4,7 @@
 
 Diseñar un programa que permita a #2 poder tener un horario escolar sin solapamientos y con los criterios que cada individuo quiera.
 
-PMV: Aplicación que atienda a las peticiones de los clientes y englobe a los elementos del proyecto a trabajar permitiendo la organización de horarios sin superposición de asignaturas.
+PMV: Descripción concisa de una aplicación que atienda a las peticiones de los clientes y englobe a los elementos del proyecto a trabajar permitiendo la organización de horarios sin superposición de asignaturas.
 
 Viabilidad: Presentar una lógica y elementos de un problema de forma que se pueda formular una solución para el problema presentado en las HUs #2.
 
