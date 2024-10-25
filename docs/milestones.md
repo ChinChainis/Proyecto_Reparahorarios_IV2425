@@ -2,9 +2,9 @@
 
 ### [Milestone 0] Modelo del problema
 
-Diseñar un programa que permita a #2 poder tener un horario escolar sin solapamientos y con los criterios que cada individuo quiera.
+Diseñar un modelo inicial que permita entender el problema del cliente #2 para poder tener un horario escolar sin solapamientos y con los criterios que cada individuo quiera.
 
-PMV: Descripción concisa de una aplicación que atienda a las peticiones de los clientes y englobe a los elementos del proyecto a trabajar permitiendo la organización de horarios sin superposición de asignaturas.
+PMV:  Modelo inicial del problema del cliente que englobe a los elementos del proyecto a trabajar permitiendo la organización de horarios sin superposición de asignaturas.
 
 Viabilidad: Cuando la descripción ofrecida sea lo suficientemente precisa de forma que se pueda formular una solución para el problema presentado en las HUs #2.
 
