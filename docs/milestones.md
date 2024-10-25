@@ -4,9 +4,9 @@
 
 Diseñar un modelo inicial que permita entender el problema del cliente #2 para poder tener un horario escolar sin solapamientos y con los criterios que cada individuo quiera.
 
-PMV:  Modelo inicial del problema del cliente que englobe a los elementos del proyecto a trabajar permitiendo la organización de horarios sin superposición de asignaturas.
+PMV:  Modelo del problema del cliente que englobe a los elementos del proyecto a trabajar permitiendo la organización de horarios sin superposición de asignaturas.
 
-Viabilidad: Cuando la descripción ofrecida sea lo suficientemente precisa de forma que se pueda formular una solución para el problema presentado en las HUs #2.
+Viabilidad: Cuando el modelo ofrecido sea lo suficientemente preciso de forma que se pueda formular una solución para el problema presentado en las HUs #2.
 
 Será viable cuando el desarrollador, ajeno al contexto de creación del programa, entienda y pueda desarrollar un proyecto que atienda a los problemas de los clientes referenciados.
 
