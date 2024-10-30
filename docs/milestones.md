@@ -20,6 +20,5 @@ Viabilidad: Cuando se alcance un horario fiel a los datos originales y sin que c
 Debe poder satisfacer tanto los criterios descritos en el milestone 0. 
 
 
-Terminología empleada [terminos.md](https://github.com/ChinChainis/Proyecto_Reparahorarios_IV2425/blob/Objetivo-1/docs/terminos.md)
 
 User stories [user_journeys.md](https://github.com/ChinChainis/Proyecto_Reparahorarios_IV2425/blob/Objetivo-1/docs/user_stories.md)
