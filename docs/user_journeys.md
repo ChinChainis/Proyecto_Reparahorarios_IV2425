@@ -19,4 +19,3 @@ Tulio de 4º de ingeniería informática.
 Desea saber los posibles horarios con hasta cuatro asignaturas de 4o curso, pudiendo enseñar desde un horario con una asignatura hasta 4 sin coincidir horarios.
 
 
-Terminología empleada [terminos.md](https://github.com/ChinChainis/Proyecto_Reparahorarios_IV2425/blob/Objetivo-1/docs/terminos.md)
