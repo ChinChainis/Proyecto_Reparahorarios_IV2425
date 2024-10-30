@@ -15,6 +15,6 @@ Me gustaría tener opción de elegir por lo menos además de 2 asignaturas oblig
 Hola soy Tulio del grado de Informática de la UGR, estoy en 4º curso y puedo elegir hasta 4 optativas en un trimestre para poder cursar el TFG pero no sé cuáles pedir para que para poder ir a todas las clases. Dado que con solo una llegaría a los créditos necesarios para hacer el TFG, no me importa tener solo 1 asignatura pero cuantas más tenga mejor si pudiera saber qué opciones tengo.
 
 Querría saber qué opciones tengo para cursar 4o con una o 4 asignaturas, teniendo varios horarios según el número de asignaturas que hay para elegir.
-Terminología empleada [terminos.md](https://github.com/ChinChainis/Proyecto_Reparahorarios_IV2425/blob/Objetivo-1/docs/terminos.md)
+
 
 User journeys [user_journeys.md](https://github.com/ChinChainis/Proyecto_Reparahorarios_IV2425/blob/Objetivo-1/docs/user_journeys.md)
