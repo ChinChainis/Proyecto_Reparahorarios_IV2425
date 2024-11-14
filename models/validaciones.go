@@ -1,27 +1,66 @@
+
 package models
 
-import "errors"
+import (
+	"errors"
+	"fmt"
+	"time"
+)
 
-// ValidarHorarios verifica que no haya solapamientos entre los horarios de las asignaturas de un estudiante.
-func ValidarHorarios(e *Estudiante) error {
-	for i := 0; i < len(e.Asignaturas); i++ {
-		for j := i + 1; j < len(e.Asignaturas); j++ {
-			if err := e.Asignaturas[i].ValidarSolapamiento(&e.Asignaturas[j]); err != nil {
-				return err
+
+func ValidarConflictosDeHorario(estudiante *Estudiante) error {
+	for i := 0; i < len(estudiante.Asignaturas); i++ {
+		for j := 0; j < len(estudiante.Asignaturas[i].Horarios); j++ {
+			horarioActual := estudiante.Asignaturas[i].Horarios[j]
+			
+			
+			for k := i; k < len(estudiante.Asignaturas); k++ {
+				for l := 0; l < len(estudiante.Asignaturas[k].Horarios); l++ {
+					horarioComparar := estudiante.Asignaturas[k].Horarios[l]
+					
+			
+					if i == k && j == l {
+						continue
+					}
+
+					
+					if horarioActual.ConflictoCon(&horarioComparar) {
+						return fmt.Errorf("conflicto de horario: %s en %s tiene un solapamiento con %s en %s",
+							estudiante.Asignaturas[i].Nombre, horarioActual.Grupo.Nombre,
+							estudiante.Asignaturas[k].Nombre, horarioComparar.Grupo.Nombre)
+					}
+				}
 			}
 		}
 	}
 	return nil
 }
 
-// ValidarSolapamiento verifica que no haya conflicto entre los horarios de esta asignatura y otra asignatura.
-func (a *Asignatura) ValidarSolapamiento(other *Asignatura) error {
-	for _, h1 := range a.Horarios {
-		for _, h2 := range other.Horarios {
-			if h1.ConflictoCon(&h2) {
-				return errors.New("conflicto de horario entre " + a.Nombre + " y " + other.Nombre)
-			}
+
+
+func ValidarHorarioLaboral(horario *Horario) error {
+	if horario.Dia == time.Saturday || horario.Dia == time.Sunday {
+		return errors.New("el horario debe ser de lunes a viernes")
+	}
+
+
+	manianaInicio := time.Date(0, 0, 0, 8, 30, 0, 0, time.UTC)
+	manianaFin := time.Date(0, 0, 0, 14, 30, 0, 0, time.UTC)
+	tardeInicio := time.Date(0, 0, 0, 15, 30, 0, 0, time.UTC)
+	tardeFin := time.Date(0, 0, 0, 20, 30, 0, 0, time.UTC)
+
+
+	if horario.Grupo.Turno == Maniana {
+		if horario.HoraInicio.Before(manianaInicio) || horario.HoraFin.After(manianaFin) {
+			return errors.New("el horario de mañana debe ser entre las 08:30 y las 14:30")
 		}
 	}
+
+	if horario.Grupo.Turno == Tarde {
+		if horario.HoraInicio.Before(tardeInicio) || horario.HoraFin.After(tardeFin) {
+			return errors.New("el horario de tarde debe ser entre las 15:30 y las 20:30")
+		}
+	}
+
 	return nil
 }
