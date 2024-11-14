@@ -15,7 +15,7 @@ type Grupo struct {
 }
 
 func NewGrupo(nombre string, turno Turno) (*Grupo, error) {
-	// Validamos que el turno sea "Mañana" o "Tarde"
+	
 	if turno != Maniana && turno != Tarde {
 		return nil, errors.New("turno inválido: debe ser 'Maniana' o 'Tarde'")
 	}
