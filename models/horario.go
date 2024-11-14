@@ -6,29 +6,35 @@ import (
 )
 
 type Horario struct {
-	Dia      time.Weekday
+	Dia        time.Weekday
 	HoraInicio time.Time
-	HoraFin time.Time
-	Grupo Grupo
+	HoraFin    time.Time
+	Grupo      Grupo
 }
 
-func newHorario(dia time.Weekday, horaInicio time.Time, horaFin time.Time, grupo Grupo) (*Horario, error) {
-	
-	if dia == time.Saturday || dia == time.Sunday {
-		return nil, errors.New("el día debe ser entre lunes y viernes")
-	}
 
+func newHorario(dia time.Weekday, horaInicio time.Time, horaFin time.Time, grupo Grupo) (*Horario, error) {
+
+	
 	if horaInicio.After(horaFin) {
 		return nil, errors.New("la hora de inicio debe ser anterior a la hora de fin")
 	}
 
-	return &Horario{
-		Dia: dia,
+	
+	horario := &Horario{
+		Dia:        dia,
 		HoraInicio: horaInicio,
-		HoraFin: horaFin,
-		Grupo: grupo,
-	}, nil
+		HoraFin:    horaFin,
+		Grupo:      grupo,
+	}
+
+	if err := ValidarHorarioLaboral(horario); err != nil {
+		return nil, err
+	}
+
+	return horario, nil
 }
+
 
 func (h *Horario) ConflictoCon(other *Horario) bool {
 	if h.Dia != other.Dia {
