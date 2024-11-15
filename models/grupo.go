@@ -5,8 +5,8 @@ import "errors"
 type Turno string
 
 const (
-	Maniana Turno = "Maniana"
 	Tarde  Turno = "Tarde"
+	Maniana Turno = "Maniana"
 )
 
 type Grupo struct {
