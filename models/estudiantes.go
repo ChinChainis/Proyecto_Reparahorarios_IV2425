@@ -17,7 +17,7 @@ func newEstudiante(nombre string, asignaturas []Asignatura) (*Estudiante, error)
 	}
 
 	if err := ValidarConflictosDeHorario(estudiante); err != nil {
-		return nil, err
+		return nil, fmt.Errorf("error al validar conflictos de horario para el estudiante %q: %w", nombre, err)
 	}
 
 	return estudiante, nil
