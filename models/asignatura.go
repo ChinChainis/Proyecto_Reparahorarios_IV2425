@@ -8,9 +8,12 @@ type Asignatura struct {
 
 func newAsignatura(nombre string, creditos int, horarios []Horario) *Asignatura {
 	return &Asignatura{
+		
 		Nombre: nombre,
 		Creditos: creditos,
 		Horarios: horarios,
+
 	}
 }
+
 
