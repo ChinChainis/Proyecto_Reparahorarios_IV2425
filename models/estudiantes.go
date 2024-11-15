@@ -20,5 +20,7 @@ func newEstudiante(nombre string, asignaturas []Asignatura) (*Estudiante, error)
 		return nil, fmt.Errorf("error al validar conflictos de horario para el estudiante %q: %w", nombre, err)
 	}
 
+
 	return estudiante, nil
+	
 }
