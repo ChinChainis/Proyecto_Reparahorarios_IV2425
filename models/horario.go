@@ -17,7 +17,7 @@ func newHorario(dia time.Weekday, horaInicio time.Time, horaFin time.Time, grupo
 
 	
 	if horaInicio.After(horaFin) {
-		return nil, errors.New("la hora de inicio debe ser anterior a la hora de fin")
+		return nil, errors.New("la hora de inicio no puede ser posterior a la hora de fin")
 	}
 
 	
