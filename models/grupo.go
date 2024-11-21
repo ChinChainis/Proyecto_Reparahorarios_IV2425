@@ -8,7 +8,9 @@ type Grupo struct {
 func NewGrupo(nombre string) (*Grupo, error) {
 
 	return &Grupo{
+
 		Nombre:  nombre,
 		Horario: *NewHorario(),
+		
 	}, nil
 }
