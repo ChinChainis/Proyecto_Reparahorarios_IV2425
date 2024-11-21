@@ -4,8 +4,8 @@ type Horario struct {
     Horario []FranjaHoraria
 }
 
-func NewHorario() *Horario {
+func NewHorario() (*Horario, error) {
     return &Horario{
-        Horario: []FranjaHoraria{},
-    }
+        Horario: []FranjaHoraria{}, 
+    }, nil
 }
