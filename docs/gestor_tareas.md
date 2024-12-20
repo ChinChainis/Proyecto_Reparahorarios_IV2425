@@ -6,8 +6,14 @@
 
 ### Make
 ** Según tutorialedge en el apartado de golang **
-Es posiblemente la más extendida y compatible entre múltiples lenguajes, además de tener una estructura sencilla e intuitiva, es constantemente revisada y actualizada para su correcto uso. Sin embargo, puede quedarse corto dependiendo de con qué proyecto se trabaje, dado que origina de script sencillos en bash, por otro lado hay que declarar varios parámetros añadidos para que compile correctamente en todos los sistemas operativos como Windows, pudiendo consumir tiempo extra de desarrollo.
+Es posiblemente la más extendida y compatible entre múltiples lenguajes, además de tener una estructura sencilla e intuitiva, 
+es constantemente revisada y actualizada para su correcto uso. 
+Sin embargo, puede quedarse corto dependiendo de con qué proyecto se trabaje, dado que origina de script sencillos en bash, 
+por otro lado hay que declarar varios parámetros añadidos para que compile correctamente en todos los sistemas operativos como Windows0,
+ pudiendo consumir tiempo extra de desarrollo.
 
 ### Mage
 ** Según la página oficial de magefile **
-Magefile es una herramienta orientada a lenguaje Go compatible desde la 1.7, actualizada regularmente (aunque la última fue el 11/5/2023), no requiere de dependencias adicionales y es operativo en la mayoría de sistemas operativos a diferencia de make.
+Magefile es una herramienta orientada a lenguaje Go compatible desde la 1.7, no requiere de dependencias adicionales y es operativo en la mayoría de sistemas operativos a diferencia de make.
+Lo único negativo que veo es que tiene un ritmo de actualizaciones irregular (la última fue el 11/5/2023).
+
