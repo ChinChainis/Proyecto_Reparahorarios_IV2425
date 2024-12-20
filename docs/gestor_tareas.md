@@ -17,3 +17,8 @@ por otro lado hay que declarar varios parámetros añadidos para que compile cor
 Magefile es una herramienta orientada a lenguaje Go compatible desde la 1.7, no requiere de dependencias adicionales y es operativo en la mayoría de sistemas operativos a diferencia de make.
 Lo único negativo que veo es que tiene un ritmo de actualizaciones irregular (la última fue el 11/5/2023).
 
+### Sage
+** Según el repositorio oficial **
+Sage es una herramienta de compilación inspirada en Mage que emplea sagefiles, permite generar otros makefiles y permite también 
+declarar dependencias pudiendo servir como gestor de dependencias. Es actualizada recurrentemente, la última revisión fue hace 2 semanas.
+Sin embargo no tiene mucha documentación ni veo que sea muy usado por los usuarios de golang, haciendo que pueda haber poco registro de fallos o taras.
