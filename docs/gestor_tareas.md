@@ -25,3 +25,12 @@ Lo único negativo que veo es que tiene un ritmo de actualizaciones irregular (l
 Sage es una herramienta de compilación inspirada en Mage que emplea sagefiles, permite generar otros makefiles y permite también 
 declarar dependencias pudiendo servir como gestor de dependencias. Es actualizada recurrentemente, la última revisión fue hace 2 semanas.
 Sin embargo no tiene mucha documentación ni veo que sea muy usado por los usuarios de golang, haciendo que pueda haber poco registro de fallos o taras.
+
+### Bazel
+** Según bazel.build, en la página oficial de descarga **
+
+Bazel es un software enfocado en la automatización de builds y test para proyectos, funciona en múltiples sistemas operativos incluso Android e iOS.
+También sirve como gestor de dependencias, haciendo que sus compilaciones son incrementales y siempre producirán el mismo resultado y
+tiene muy buena escalabilidad pudiendo trabajar con proyectos de gran escala.
+Los usuarios tienen una idea general y es que Bazel es más práctico para proyectos grandes u otros lenguajes y puede dar lugar 
+a un grado de dificultad mayor que cualquier otra herramienta de compilación
