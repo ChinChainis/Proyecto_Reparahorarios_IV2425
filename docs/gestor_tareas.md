@@ -36,6 +36,13 @@ Los usuarios tienen una idea general y es que Bazel es más práctico para proye
 a un grado de dificultad mayor que cualquier otra herramienta de compilación.
 
 ### Task
+** Según su repositorio oficial y un artículo en comparación con make **
 
 Task sirve de task runner y gestor de tareas orientado a golang, basado en emplear archivos yaml con órdenes bash. Se puede emplear también
-para otros lenguajes. Puede ser por temas subjetivos pero requiere una sintaxis de implementación completamente distinta en cuanto a  
+para otros lenguajes. Puede ser por temas subjetivos pero requiere una sintaxis de implementación completamente distinta y 
+múltiples herramientras funcionan de forma distinta como los condicionales o variables de entorno; otros gestores son más directos.
+
+### Just
+
+Muy similar a make pero con un formato más parecido a un archivo con main y funciones llamado justfile, 
+siendo bastante fácil de abordar. Es una herramienta especialmente rápida siendo útil a la hora de largas sesiones de trabajo o múltiples archivos.
