@@ -33,4 +33,9 @@ Bazel es un software enfocado en la automatización de builds y test para proyec
 También sirve como gestor de dependencias, haciendo que sus compilaciones son incrementales y siempre producirán el mismo resultado y
 tiene muy buena escalabilidad pudiendo trabajar con proyectos de gran escala.
 Los usuarios tienen una idea general y es que Bazel es más práctico para proyectos grandes u otros lenguajes y puede dar lugar 
-a un grado de dificultad mayor que cualquier otra herramienta de compilación
+a un grado de dificultad mayor que cualquier otra herramienta de compilación.
+
+### Task
+
+Task sirve de task runner y gestor de tareas orientado a golang, basado en emplear archivos yaml con órdenes bash. Se puede emplear también
+para otros lenguajes. Puede ser por temas subjetivos pero requiere una sintaxis de implementación completamente distinta en cuanto a  
