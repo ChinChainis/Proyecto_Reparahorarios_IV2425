@@ -43,6 +43,7 @@ para otros lenguajes. Puede ser por temas subjetivos pero requiere una sintaxis 
 múltiples herramientras funcionan de forma distinta como los condicionales o variables de entorno; otros gestores son más directos.
 
 ### Just
+** Según su repositorio oficial **
 
 Muy similar a make pero con un formato más parecido a un archivo con main y funciones llamado justfile, 
 siendo bastante fácil de abordar. Es una herramienta especialmente rápida siendo útil a la hora de largas sesiones de trabajo o múltiples archivos.
