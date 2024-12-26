@@ -1,7 +1,9 @@
 # Gestor de tareas
 
 ## Criterios de elección
-- Debe tener un mantenimiento mínimo en la actualidad, no conviene utilizar herramientas de compilación desfasadas o sin un seguimiento activo de su correcto funcionamiento
+- Debe tener un mantenimiento mínimo en la actualidad, no conviene utilizar herramientas de compilación desfasadas o 
+sin un seguimiento activo de su correcto funcionamiento
+- Preferiblemente un tipo de gestor que no requiera una sintaxis especial o única añadiendo una capa más de abstracción al proyecto
 ## Opciones disponibles para gestor de tareas
 
 ### Make
