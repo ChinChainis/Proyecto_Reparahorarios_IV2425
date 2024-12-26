@@ -46,4 +46,7 @@ múltiples herramientras funcionan de forma distinta como los condicionales o va
 ** Según su repositorio oficial **
 
 Muy similar a make pero con un formato más parecido a un archivo con main y funciones llamado justfile, 
-siendo bastante fácil de abordar. Es una herramienta especialmente rápida siendo útil a la hora de largas sesiones de trabajo o múltiples archivos.
+siendo bastante fácil de abordar. Es una herramienta especialmente rápida siendo útil a la hora de largas sesiones de trabajo o múltiples archivos. Just está escrita en el mismo lenguaje que GO facilitando compatibilidad y salvando posibles errores con otros gestores.
+
+**Vamos a emplear just con un justfile.**
+
