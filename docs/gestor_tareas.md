@@ -52,3 +52,6 @@ siendo bastante fácil de abordar. Es una herramienta especialmente rápida sien
 
 **Vamos a emplear just con un justfile.**
 
+Vamos a probar el uso de just como gestor de tareas, se ha decantado por esta herramienta por cumplir los criterios de selección
+además de aportar múltiples qualities of life a la hora del tiempo de desarrollo minimizando la deuda técnica; además es una 
+herramienta potente si se diera el caso de que el proyecto aumentara drásticamente de volumen de archivos.
