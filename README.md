@@ -18,4 +18,4 @@ Muestra la versión empleada de go.
 
 > `just build`
 
-Compila archivos del proyecto.
+Compila código de la carpeta de modelos.
