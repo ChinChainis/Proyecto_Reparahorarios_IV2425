@@ -3,7 +3,7 @@
 ## Criterios de elección
 - Debe tener un mantenimiento mínimo en la actualidad, no conviene utilizar herramientas de compilación desfasadas o 
 sin un seguimiento activo de su correcto funcionamiento
-- Preferiblemente un tipo de gestor que no requiera una sintaxis especial o única añadiendo una capa más de abstracción al proyecto
+- La herramienta debe tener buena compatibilidad con el lenguaje para su correcto funcionamiento de compilación o chequeo de sintaxis.
 ## Opciones disponibles para gestor de tareas
 
 ### Make
