@@ -19,7 +19,6 @@ por otro lado hay que declarar varios parámetros añadidos para que compile cor
 ** Según la página oficial de magefile **
 
 Magefile es una herramienta orientada a lenguaje Go compatible desde la 1.7, no requiere de dependencias adicionales y es operativo en la mayoría de sistemas operativos a diferencia de make.
-Lo único negativo que veo es que tiene un ritmo de actualizaciones irregular (la última fue el 11/5/2023).
 
 ### Sage
 ** Según el repositorio oficial **
