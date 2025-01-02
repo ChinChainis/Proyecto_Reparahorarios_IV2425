@@ -3,8 +3,7 @@
 ## Criterios de elección
 - Debe tener un mantenimiento mínimo en la actualidad, no conviene utilizar herramientas de compilación desfasadas o 
 sin un seguimiento activo de su correcto funcionamiento
-- Para evitar el aumento de deuda técnica, las herramienta debe tener buena compatibilidad con el lenguaje 
-para implementar buenas prácticas del lenguaje sin afectar al funcionamiento de compilación o chequeo de sintaxis.
+- Para evitar el aumento de deuda técnica, las herramienta debe tener buena compatibilidad con el lenguaje para implementar buenas prácticas del lenguaje sin afectar al funcionamiento de compilación o chequeo de sintaxis.
 ## Opciones disponibles para gestor de tareas
 
 ### Make
