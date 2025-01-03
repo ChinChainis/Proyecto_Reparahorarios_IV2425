@@ -28,9 +28,9 @@ Sin embargo no tiene mucha documentación ni veo que sea muy usado por los usuar
 ### Bazel
 **Según [bazel.build](https://bazel.build/start/go?hl=es-419), en la página oficial de descarga**
 
-Bazel es un software enfocado en la automatización de builds y test para proyectos, funciona en múltiples sistemas operativos. Es actualizado regularmente, según su repositorio hace tan solo 2 semanas que fue revisado.
-También sirve como gestor de dependencias, haciendo que sus compilaciones son incrementales y siempre producirán el mismo resultado y
-tiene muy buena escalabilidad pudiendo trabajar con proyectos de gran escala.
+Bazel es un software enfocado en la automatización de builds y test para proyectos, funciona en múltiples sistemas operativos.
+Sirve como gestor de dependencias, haciendo que sus compilaciones son incrementales y siempre producirán el mismo resultado y
+tiene muy buena escalabilidad pudiendo trabajar con proyectos de gran escala, además es actualizado regularmente asegurando un seguimiento de los posibles fallos de la herramienta. 
 Según múltiples usuario Bazel está enfocados a proyectos grandes de empresas multinacionales u otros lenguajes y puede dar lugar 
 a un grado de dificultad mayor que cualquier otra herramienta de compilación. Según este [artículo](https://medium.com/windmill-engineering/bazel-is-the-worst-build-system-except-for-all-the-others-b369396a9e26) explica su experiencia intentando usar bazel para proyectos de código abierto.
 
