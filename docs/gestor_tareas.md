@@ -2,7 +2,7 @@
 
 ## Criterios de elección
 - Debe tener un mantenimiento mínimo en la actualidad, no conviene utilizar herramientas de compilación desfasadas para no aumentar 
-la deuda técnica al tener que investigar bugs o fallos de compilación del gestor por estar actualizado.
+la deuda técnica al tener que investigar bugs o fallos de compilación del gestor por estar no actualizado.
 ## Opciones disponibles para gestor de tareas
 
 ### Make
