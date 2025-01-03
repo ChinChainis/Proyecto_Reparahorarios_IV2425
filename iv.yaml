@@ -1,3 +1,6 @@
 lenguaje: go
 entidad: models/grupo.go
+automatizar:
+  fichero: justfile
+  orden: just
 
