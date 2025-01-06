@@ -29,7 +29,9 @@ Sin embargo no tiene mucha documentación ni veo que sea muy usado por los usuar
 **Según [bazel.build](https://bazel.build/start/go?hl=es-419), en la página oficial de descarga**
 
 Bazel es una herramienta de compilación y prueba de código abierto similar a Make, Maven y Gradle, es multiplataforma y asegura tener gran escalabilidad y extensibilidad.
-Sirve también como gestor de dependencias, haciendo que sus compilaciones son incrementales y siempre producirán el mismo resultado; respecto a su buena escalabilidad, permite trabajar con proyectos con un gran volumen de datos o archivos.
+Presenta caracterísicas como compilaciones incrementales, es decir solo compila las partes modificadas de un programa, 
+intentando asegurar que siempre producirán el mismo resultado siendo bastante útil como gestor de tareas; 
+además presenta una buena escalabilidad, permite trabajar con proyectos con un gran volumen de datos o archivos.
 Es actualizado regularmente asegurando un seguimiento de los posibles fallos de la herramienta, la última revisión fue ayer respecto al día de edición de este documento markdown. 
 Según múltiples usuario Bazel está enfocados a proyectos grandes de empresas multinacionales como Google u otros lenguajes y puede dar lugar 
 a un grado de dificultad mayor que cualquier otra herramienta de compilación. Según este [artículo](https://medium.com/windmill-engineering/bazel-is-the-worst-build-system-except-for-all-the-others-b369396a9e26) explica su experiencia intentando usar bazel para proyectos de código abierto.
