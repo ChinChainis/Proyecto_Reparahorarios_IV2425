@@ -34,6 +34,14 @@ Task sirve de task runner y gestor de tareas orientado a golang, basado en emple
 para otros lenguajes. Puede ser por temas subjetivos pero requiere una sintaxis de implementación completamente distinta y 
 múltiples herramientras funcionan de forma distinta como los condicionales o variables de entorno; otros gestores son más directos.
 
+### XC
+**Según su [repositorio oficial](https://github.com/joerdav/xc)**
+
+XC o Execute es un task runner similar a make y npm run que se centra en ser más accesible; emplea con ficheros markdown la filosofía 
+de programación literaria, el uso de lenguaje natural para el desarrollo de scripts para intentar reducir la deuda técnica de aprendizaje.
+En cuanto a aspectos negativos veo que xc no es muy empleado por los usuarios o prefieren usar herramientas como [mage](https://www.reddit.com/r/golang/comments/12rmz4p/selfdocumenting_task_runner_define_tasks_in_the/)que siguen una filosofía similar.
+
+
 ### Just
 **Según su [repositorio oficial](https://github.com/casey/just)**
 
