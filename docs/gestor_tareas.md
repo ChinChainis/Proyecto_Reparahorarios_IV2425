@@ -1,8 +1,8 @@
 # Gestor de tareas
 
 ## Criterios de elección
-- Debe tener un mantenimiento mínimo en la actualidad, no conviene utilizar herramientas desfasadas para no aumentar 
-la deuda técnica al tener que investigar bugs o fallos de compilación del gestor por no estar actualizado.
+- Debe tener un mantenimiento mínimo en la actualidad, no conviene utilizar herramientas desfasadas dando lugar a un aumento de
+la deuda técnica; estudiaremos el estado de los repositorios de las cada herramienta para ver su seguimiento.
 ## Opciones disponibles para gestor de tareas
 
 ### Make
