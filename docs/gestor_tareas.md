@@ -3,6 +3,8 @@
 ## Criterios de elección
 - Debe tener un mantenimiento en la actualidad, no conviene utilizar herramientas desfasadas dando lugar a un aumento de
 la deuda técnica; estudiaremos el estado de los repositorios de las cada herramienta para ver su seguimiento y descartaremos aquellos con más de un año de inactividad.
+- Debe tener una comunidad activa, múltiples instancias de gente usando estas herramientas para sus proyectos con dudas entre usuarios, 
+artículos o discusiones para la mejora del desarrollo de la herramienta y su trabajo con ella.
 ## Opciones disponibles para gestor de tareas
 
 ### Make
