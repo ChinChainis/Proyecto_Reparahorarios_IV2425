@@ -10,3 +10,7 @@
 
 Go testing es una función de un paquete nativo del lenguaje Go para testeo automático de código. Es actualizado regularmente dado que va directamente asociado al lenguaje y no necesita de instalación, para su uso solo hay que importar "testing" en el archivo a usar.
 
+### Testify
+**Según el estudio de [google trends](https://trends.google.com/trends/explore?date=today%205-y&q=golang%20testify,golang%20goconvey,golang%20ginkgo,golang%20httpexpect,golang%20gomega) y su [repositorio](https://github.com/stretchr/testify)**
+
+Testify es una serie de paquetes de uso bastante extendido, tiene una instalación sencilla con solo escribir `$go get github.com/stretchr/testify` y comprende 5 paquetes; respecto a su seguimiento es revisado mensualmente para mantener su uso correcto.
