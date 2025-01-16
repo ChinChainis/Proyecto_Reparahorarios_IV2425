@@ -5,12 +5,13 @@ import (
 )
 
 func TestEsHoraValidaPorTurno(t *testing.T) {
-	type horaTesteo struct {
+	horaTesteo := []struct {
 		hora      int
 		turno     Turno
 		resultado bool
+	}{
+		{11, "maniana", true},
 	}
-	var prueba horaTesteo = horaTesteo{11, "maniana", true}
 
 	if resultado := EsHoraValidaPorTurno(prueba.hora, prueba.turno); resultado != prueba.resultado {
 		t.Errorf("esHoraValidaPorTurno(%v, %v) = %v; resultado esperado: %v", prueba.hora, prueba.turno, resultado, prueba.resultado)
