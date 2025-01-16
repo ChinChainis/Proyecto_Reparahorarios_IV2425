@@ -9,3 +9,8 @@
 **Según el [repositorio oficial](https://github.com/stretchr/testify)**
 
 Testify es una serie de paquetes de uso bastante extendido poseyendo uno específico para el testeo con aserciones, tiene una instalación sencilla con solo escribir `$go get github.com/stretchr/testify` se instalan los 5 paquetes. Tiene un mantenimiento cuidado regularmente según su repositorio.
+
+### Ghost
+**Según el [repositorio oficial](https://github.com/rliebz/ghost)**
+
+Sigue una orientación al lenguaje natural, definiendo con verbos qué testear y qué debería salir, necesita de incluir el paquete en el proyecto y su última revisión fue recientemente. 
