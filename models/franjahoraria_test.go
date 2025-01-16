@@ -10,10 +10,10 @@ func TestEsHoraValidaPorTurno(t *testing.T) {
 		turno     Turno
 		resultado bool
 	}{
-		{11, "Manana", true},
-		{17, "Tarde", true},
-		{15, "Manana", false},
-		{8, "Tarde", false},
+		{11, Manana, true},
+		{17, Tarde, true},
+		{15, Manana, false},
+		{8, Tarde, false},
 	}
 
 	for _, tt := range horaTesteo {
