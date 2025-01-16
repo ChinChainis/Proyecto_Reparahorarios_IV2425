@@ -10,7 +10,10 @@ func TestEsHoraValidaPorTurno(t *testing.T) {
 		turno     Turno
 		resultado bool
 	}{
-		{11, "maniana", true},
+		{11, "Manana", true},
+		{17, "Tarde", true},
+		{15, "Manana", false},
+		{8, "Tarde", false},
 	}
 
 	if resultado := EsHoraValidaPorTurno(prueba.hora, prueba.turno); resultado != prueba.resultado {
