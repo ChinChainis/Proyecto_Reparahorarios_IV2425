@@ -16,13 +16,13 @@ func NewHorario(horario []FranjaHoraria) (*Horario, error) {
 }
 
 func AsignaturaRepetida(horario []FranjaHoraria) bool {
-	var hayRepeticion bool = false
+	var noHayRepeticion bool = true
 	for i := 0; i < len(horario); i++ {
 		for j := i + 1; j < len(horario); j++ {
 			if horario[i].Asignatura == horario[j].Asignatura && horario[i].Turno == horario[j].Turno {
-				hayRepeticion = true
+				noHayRepeticion = false
 			}
 		}
 	}
-	return hayRepeticion
+	return noHayRepeticion
 }
