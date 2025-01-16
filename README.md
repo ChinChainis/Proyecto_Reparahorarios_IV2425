@@ -15,9 +15,13 @@ Con un mayor avance del proyecto se podría implementar una función de obtener 
 
 Documentación del proyecto en la carpeta [docs](https://github.com/ChinChainis/Proyecto_Reparahorarios_IV2425/blob/Objetivo-4/docs/README.md)
 
+Archivos de seguridad [docs](https://github.com/ChinChainis/Proyecto_Reparahorarios_IV2425/tree/Objetivo-4/docs/docs_seguridad_repositorio)
+
 
 ## Ejecución de tareas
 Se requiere tener instalado la herramienta just para trabajar con el gestor de tareas.
+
+Análisis de los task runner planteados en [gestor_de_tareas.md](https://github.com/ChinChainis/Proyecto_Reparahorarios_IV2425/blob/Objetivo-4/docs/gestor_tareas.md)
 
 > `just clean`
 
@@ -34,3 +38,9 @@ Muestra la versión empleada de go.
 > `just build`
 
 Compila código de la carpeta de modelos.
+
+
+Análisis de los test runner planteados en [test_runners.md](https://github.com/ChinChainis/Proyecto_Reparahorarios_IV2425/blob/Objetivo-4/docs/test_runners.md)
+
+> `go test -v`
+En fichero de models
