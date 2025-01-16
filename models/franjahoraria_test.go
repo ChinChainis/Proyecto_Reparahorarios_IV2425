@@ -16,8 +16,14 @@ func TestEsHoraValidaPorTurno(t *testing.T) {
 		{8, "Tarde", false},
 	}
 
-	if resultado := EsHoraValidaPorTurno(prueba.hora, prueba.turno); resultado != prueba.resultado {
-		t.Errorf("esHoraValidaPorTurno(%v, %v) = %v; resultado esperado: %v", prueba.hora, prueba.turno, resultado, prueba.resultado)
+	for _, tt := range horaTesteo {
+		err := EsHoraValidaPorTurno(
+			tt.hora,
+			tt.turno,
+		)
+		if resultado := err; resultado != tt.resultado {
+			t.Errorf("esHoraValidaPorTurno(%v, %v) = %v; resultado esperado: %v", tt.hora, tt.turno, resultado, tt.resultado)
+		}
 	}
 
 }
