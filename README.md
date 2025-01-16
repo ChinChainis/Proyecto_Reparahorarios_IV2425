@@ -23,6 +23,10 @@ Se requiere tener instalado la herramienta just para trabajar con el gestor de t
 
 Análisis de los task runner planteados en [gestor_de_tareas.md](https://github.com/ChinChainis/Proyecto_Reparahorarios_IV2425/blob/Objetivo-4/docs/gestor_tareas.md)
 
+> `just test`
+
+Ejecuta ficheros de testeo de las entidades del proyecto.
+
 > `just clean`
 
 Borramos ficheros binarios si se han generado.
