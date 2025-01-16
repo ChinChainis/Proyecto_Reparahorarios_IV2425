@@ -3,4 +3,5 @@ entidad: models/grupo.go
 automatizar:
   fichero: justfile
   orden: just
-
+test:
+  models/franjahoraria_test.go
