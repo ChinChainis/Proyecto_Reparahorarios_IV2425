@@ -14,3 +14,8 @@ Testify es una serie de paquetes de uso bastante extendido poseyendo uno especí
 **Según el [repositorio oficial](https://github.com/rliebz/ghost)**
 
 Sigue una orientación al lenguaje natural, definiendo con verbos qué testear y qué debería salir, necesita de incluir el paquete en el proyecto y su última revisión fue recientemente. 
+
+### Assert
+**Según el [repositorio oficial](https://github.com/negrel/assert)**
+
+Es un paquete para proyectos en Go basado en el paquete de assert de testify. Para su uso se necesita importar al proyecto con `import{"github.com/negrel/assert"}` y fue revisada hace un mes desde la escritura de este apartado del documento.
