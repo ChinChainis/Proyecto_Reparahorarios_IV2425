@@ -24,3 +24,8 @@ Diseñado exclusivamente para go, es un framework de testeo que emplea test cent
 **Según una discusión sobre el tema en [reddit](https://www.reddit.com/r/golang/comments/t29c4d/looking_for_a_test_runner_like_pytest/) y su [repositorio](https://github.com/maelstrom-software/maelstrom)**
 
 Herramienta de testeo de forma aislada en contenedores, para instalarse solo necesita escribirse `$wget -q -O - https://github.com/maelstrom-software/maelstrom/releases/latest/download/cargo-maelstrom-x86_64-unknown-linux-gnu.tgz | tar xzf -` que da lugar a múltiples paquetes para emplear este software. Sin embargo su repositorio es actualizado regularmente, hace escasas horas desde la redacción de este párrafo que se actualizó.
+
+
+**Vamos a emplear go testing como test runner.**
+
+Go testing es la herramienta más directa y es nativa del lenguaje Go, permitiendo instalación mínima para el testeo automático de los archivos del proyecto.
