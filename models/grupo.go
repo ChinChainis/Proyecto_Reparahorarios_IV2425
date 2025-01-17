@@ -1,5 +1,7 @@
 package models
 
+import "fmt"
+
 type Grupo struct {
 	Nombre  string
 	Horario *Horario
@@ -10,6 +12,10 @@ func NewGrupo(nombre string) (*Grupo, error) {
 	horario, err := NewHorario()
 	if err != nil {
 		return nil, err
+	}
+
+	if NoSuperposicionDeAsignaturasEnGrupo(*horario) {
+		return nil, fmt.Errorf("encontradas asignaturas que se superponen")
 	}
 
 	return &Grupo{
