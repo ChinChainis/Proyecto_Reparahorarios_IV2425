@@ -19,13 +19,13 @@ func NewGrupo(nombre string) (*Grupo, error) {
 	}, nil
 }
 
-func NoSuperposicionDeAsignaturasEnGrupo(grupoEntrada Grupo) bool {
+func NoSuperposicionDeAsignaturasEnGrupo(horarioEntrada Horario) bool {
 	var haySuperposicion bool = false
-	for i := 0; i < len(grupoEntrada.Horario.Horario); i++ {
-		var franjaActual FranjaHoraria = grupoEntrada.Horario.Horario[i]
+	for i := 0; i < len(horarioEntrada.Horario); i++ {
+		var franjaActual FranjaHoraria = horarioEntrada.Horario[i]
 
-		for j := i + 1; j < len(grupoEntrada.Horario.Horario); j++ {
-			var franjaAComparar FranjaHoraria = grupoEntrada.Horario.Horario[j]
+		for j := i + 1; j < len(horarioEntrada.Horario); j++ {
+			var franjaAComparar FranjaHoraria = horarioEntrada.Horario[j]
 			if franjaActual.Dia == franjaAComparar.Dia {
 				if franjaActual.Inicio.Hora == franjaAComparar.Inicio.Hora {
 					haySuperposicion = true
