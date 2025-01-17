@@ -11,6 +11,15 @@ const (
 	MinutoTreinta Minuto = 30
 )
 
+type Hora int
+
+const (
+	EntradaManana Hora = 8
+	SalidaManana  Hora = 14
+	EntradaTarde  Hora = 15
+	SalidaTarde   Hora = 20
+)
+
 type DiaSemana int
 
 const (
