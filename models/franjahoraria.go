@@ -75,9 +75,9 @@ func NewFranjaHoraria(dia DiaSemana, inicio HoraMinuto, duracion Duracion, asign
 func EsHoraValidaPorTurno(hora int, turno Turno) bool {
 	switch turno {
 	case Manana:
-		return hora >= 8 && hora < 14
+		return hora >= int(EntradaManana) && hora < int(SalidaManana)
 	case Tarde:
-		return hora >= 15 && hora <= 20
+		return hora >= int(EntradaTarde) && hora <= int(SalidaTarde)
 	default:
 		return false
 	}
