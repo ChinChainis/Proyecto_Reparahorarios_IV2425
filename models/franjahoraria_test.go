@@ -17,7 +17,7 @@ func TestEsHoraValidaPorTurno(t *testing.T) {
 	}
 
 	for _, tt := range horaTesteo {
-		err := EsHoraValidaPorTurno(
+		err := CompruebaCorrespondenciaHoraTurno(
 			tt.hora,
 			tt.turno,
 		)
