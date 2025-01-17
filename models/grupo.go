@@ -14,7 +14,7 @@ func NewGrupo(nombre string) (*Grupo, error) {
 		return nil, err
 	}
 
-	if NoSuperposicionDeAsignaturasEnGrupo(*horario) {
+	if NoSuperposicionDeAsignaturasEnGrupo(horario.Horario) {
 		return nil, fmt.Errorf("encontradas asignaturas que se superponen")
 	}
 
@@ -25,13 +25,13 @@ func NewGrupo(nombre string) (*Grupo, error) {
 	}, nil
 }
 
-func NoSuperposicionDeAsignaturasEnGrupo(horarioEntrada Horario) bool {
+func NoSuperposicionDeAsignaturasEnGrupo(horarioEntrada []FranjaHoraria) bool {
 	var haySuperposicion bool = false
-	for i := 0; i < len(horarioEntrada.Horario); i++ {
-		var franjaActual FranjaHoraria = horarioEntrada.Horario[i]
+	for i := 0; i < len(horarioEntrada); i++ {
+		var franjaActual FranjaHoraria = horarioEntrada[i]
 
-		for j := i + 1; j < len(horarioEntrada.Horario); j++ {
-			var franjaAComparar FranjaHoraria = horarioEntrada.Horario[j]
+		for j := i + 1; j < len(horarioEntrada); j++ {
+			var franjaAComparar FranjaHoraria = horarioEntrada[j]
 			if franjaActual.Dia == franjaAComparar.Dia {
 				if franjaActual.Inicio.Hora == franjaAComparar.Inicio.Hora {
 					haySuperposicion = true
