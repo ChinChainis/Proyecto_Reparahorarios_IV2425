@@ -33,3 +33,17 @@ func TestSuperposicionHorasAsignaturaParcialmenteSuperpuesta(t *testing.T) {
 		assert.Equal(t, err, tt.resultado, "Los resultados deberían ser iguales")
 	}
 }
+
+func TestSuperposicionHorasAsignaturaDiferentesTurnos(t *testing.T) {
+	asignaturasTesteo := []struct {
+		franjas   []FranjaHoraria
+		resultado bool
+	}{
+		{franjas: []FranjaHoraria{{Lunes, HoraMinuto{12, MinutoCero}, DosHoras, "fisica", Manana},
+			{Lunes, HoraMinuto{16, MinutoCero}, DosHoras, "lengua", Tarde}}, resultado: false},
+	}
+	for _, tt := range asignaturasTesteo {
+		err := NoSuperposicionDeAsignaturasEnGrupo(tt.franjas)
+		assert.Equal(t, err, tt.resultado, "Los resultados deberían ser iguales")
+	}
+}
