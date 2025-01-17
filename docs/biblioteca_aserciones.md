@@ -4,6 +4,7 @@
 - Debe tener un mantenimiento en la actualidad para no aumentar la deuda técnica; descartaremos aquellos cuyos repositorios no hayan tenido ninguna revisión o commit nuevo en más de 6 meses.
 - Debe ser compatible con el test runner asignado, en este caso es la herramienta nativa del lenguaje go testing.
 - Evitar aquellas que empleen múltiples instalaciones de librerías externas, daremos prioridad a aquellas optimizadas para el lenguaje go para evitar posible deuda técnica que genere las incompatibilidades.
+- Que cuente con una comunidad activa, el uso extendido de una herramienta permite encontrar rápidamente si hay algún fallo o discutir entre varios usuarios cómo solventarlo.
 ## Opciones disponibles para aserciones:
 
 ### Testify
