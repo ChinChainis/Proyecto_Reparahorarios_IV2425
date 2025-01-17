@@ -6,13 +6,13 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func TestNoSuperposicionDeAsignaturasEnGrupo(t *testing.T) {
+func TestSuperposicionHorasAsignaturaCompletamenteSuperpuesta(t *testing.T) {
 	asignaturasTesteo := []struct {
 		franjas   []FranjaHoraria
 		resultado bool
 	}{
-		{franjas: []FranjaHoraria{{Lunes, HoraMinuto{9, MinutoCero}, UnaHora, "fisica", Manana},
-			{Lunes, HoraMinuto{10, MinutoCero}, DosHoras, "fisica", Manana}}, resultado: true},
+		{franjas: []FranjaHoraria{{Lunes, HoraMinuto{9, MinutoCero}, DosHoras, "fisica", Manana},
+			{Lunes, HoraMinuto{10, MinutoCero}, UnaHora, "lengua", Manana}}, resultado: true},
 	}
 	for _, tt := range asignaturasTesteo {
 		err := NoSuperposicionDeAsignaturasEnGrupo(tt.franjas)
