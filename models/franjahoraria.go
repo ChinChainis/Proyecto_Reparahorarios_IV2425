@@ -59,7 +59,7 @@ type FranjaHoraria struct {
 
 func NewFranjaHoraria(dia DiaSemana, inicio HoraMinuto, duracion Duracion, asignatura string, turno Turno) (*FranjaHoraria, error) {
 
-	if !EsHoraValidaPorTurno(inicio.Hora, turno) {
+	if !CompruebaCorrespondenciaHoraTurno(inicio.Hora, turno) {
 		return nil, fmt.Errorf("hora inválida para el turno %s: %02d no está en el rango permitido", turno, inicio.Hora)
 	}
 
@@ -72,7 +72,7 @@ func NewFranjaHoraria(dia DiaSemana, inicio HoraMinuto, duracion Duracion, asign
 	}, nil
 }
 
-func EsHoraValidaPorTurno(hora int, turno Turno) bool {
+func CompruebaCorrespondenciaHoraTurno(hora int, turno Turno) bool {
 	switch turno {
 	case Manana:
 		return hora >= int(EntradaManana) && hora < int(SalidaManana)
