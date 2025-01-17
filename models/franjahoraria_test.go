@@ -2,6 +2,8 @@ package models
 
 import (
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
 func TestCorrespondenciaHoraTurno(t *testing.T) {
@@ -21,9 +23,7 @@ func TestCorrespondenciaHoraTurno(t *testing.T) {
 			tt.hora,
 			tt.turno,
 		)
-		if resultado := err; resultado != tt.resultado {
-			t.Errorf("esHoraValidaPorTurno(%v, %v) = %v; resultado esperado: %v", tt.hora, tt.turno, resultado, tt.resultado)
-		}
+		assert.Equal(t, err, tt.resultado, "Los resultados debería ser iguales")
 	}
 
 }
