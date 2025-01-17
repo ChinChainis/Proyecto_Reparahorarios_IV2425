@@ -4,7 +4,7 @@ import (
 	"testing"
 )
 
-func TestEsHoraValidaPorTurno(t *testing.T) {
+func TestCorrespondenciaHoraTurno(t *testing.T) {
 	horaTesteo := []struct {
 		hora      int
 		turno     Turno
