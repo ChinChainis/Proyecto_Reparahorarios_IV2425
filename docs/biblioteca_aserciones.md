@@ -15,13 +15,13 @@ Testify es una serie de paquetes de uso bastante extendido poseyendo uno especí
 ### Ghost
 **Según el [repositorio oficial](https://github.com/rliebz/ghost)**
 
-Sigue una orientación al lenguaje natural, tiene múltiples palabras reservadas para intentar mejorar de forma intuitiva qué emplea en cada momento, necesita de incluir la librería en el proyecto; tiene un arduo seguimiento, hace 2 semanas fue revisado, así que está en constante actualización en caso de encontrarse algun error. 
+Sigue una orientación al lenguaje natural, tiene múltiples palabras reservadas para intentar mejorar de forma intuitiva qué emplea en cada momento, necesita de incluir la librería en el proyecto; tiene un arduo seguimiento, hace 2 semanas fue revisado, así que está en constante actualización en caso de encontrarse algun error, aunque no veo mucho seguimiento por parte de la comunidad puesto que prefieren otras herramientas.
 
 ### Assert
 **Según el [repositorio oficial](https://github.com/negrel/assert)**
 
 Es un paquete para proyectos en Go basado en el paquete de assert de testify pero más especializado. Necesita importar al proyecto con `import{"github.com/negrel/assert"}` y fue revisada hace un mes desde la escritura de este apartado del documento. Sun embargo no veo que assert sea más utilizado que su versión dentro de testify, dejándolo en desventaja en cuanto a apoyo en la comunidad.
 
-**De momento vamos a emplear go testing.**
+**De momento vamos a emplear go testify.**
 
-Debido a que viene incluída en la propia sintaxis del lenguaje y no requiere de ningun soporte externo, vamos a probar las funciones de aserción de testing para comprobar el funcionamiento de las funciones del proyecto.
+Es la biblioteca más extendida además de tener gran compatiblidad con el test runner empleado, probaremos sus métodos para comparar las entradas y salidas de estructuras de datos.
