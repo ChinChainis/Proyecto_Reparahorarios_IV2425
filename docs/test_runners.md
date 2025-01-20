@@ -18,7 +18,8 @@ Testify es una serie de paquetes de uso bastante extendido, tiene una instalaci�
 ### Ginkgo
 **Según la [página oficial](https://onsi.github.io/ginkgo/) y su [repositorio](https://github.com/onsi/ginkgo)**
 
-Diseñado exclusivamente para go, es un framework de testeo que emplea test centrados en el uso de DSL(Domain Specific Language) e, para instalarse solo necesita escribirse `$go install github.com/onsi/ginkgo/v2/ginkgo` y según su repositorio fue actualizado hace 2 semanas según se escribe este apartado.
+Diseñado exclusivamente para go, es un framework de testeo que emplea test centrados en el uso de DSL(Domain Specific Language),
+según su repositorio fue actualizado hace 2 semanas según se escribe este apartado.
 
 ### Maelstrom
 **Según una discusión sobre el tema en [reddit](https://www.reddit.com/r/golang/comments/t29c4d/looking_for_a_test_runner_like_pytest/) y su [repositorio](https://github.com/maelstrom-software/maelstrom)**
