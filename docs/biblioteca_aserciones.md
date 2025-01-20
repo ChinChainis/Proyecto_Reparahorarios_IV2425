@@ -22,6 +22,6 @@ Sigue una orientación al lenguaje natural, tiene múltiples palabras reservadas
 
 Es un paquete para proyectos en Go basado en el paquete de assert de testify pero más especializado. Necesita importar al proyecto con `import{"github.com/negrel/assert"}` y fue revisada hace un mes desde la escritura de este apartado del documento.
 
-**De momento vamos a emplear go testify.**
+**De momento vamos a emplear go testify, concretamente el paquete assert de go testify.**
 
 Es la biblioteca más extendida además de tener gran compatiblidad con el test runner empleado, probaremos sus métodos para comparar las entradas y salidas de estructuras de datos.
