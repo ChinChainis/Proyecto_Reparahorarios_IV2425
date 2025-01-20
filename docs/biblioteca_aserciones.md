@@ -1,7 +1,7 @@
 # Biblioteca de aserciones
 
 ## Criterios de elección
-- Debe tener un mantenimiento en la actualidad para no aumentar la deuda técnica; descartaremos aquellos cuyos repositorios no hayan tenido ninguna revisión o commit nuevo en más de 6 meses.
+- Debe tener un mantenimiento en la actualidad para no aumentar la deuda técnica; descartaremos aquellos cuyos repositorios no hayan tenido actividad de revisión reciente o cuidado con respecto a la actualización del lenguaje Go u otras dependencias a usar.
 - Debe ser compatible con el test runner asignado, en este caso es la herramienta nativa del lenguaje go testing.
 - Evitar aquellas que empleen múltiples instalaciones de librerías externas, daremos prioridad a aquellas optimizadas para el lenguaje go para evitar posible deuda técnica que genere las incompatibilidades.
 
