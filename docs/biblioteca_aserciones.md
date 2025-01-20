@@ -15,7 +15,7 @@ Testify es una serie de paquetes de uso bastante extendido poseyendo uno especí
 ### Ghost
 **Según el [repositorio oficial](https://github.com/rliebz/ghost)**
 
-Sigue una orientación al lenguaje natural, tiene múltiples palabras reservadas para intentar mejorar de forma intuitiva qué emplea en cada momento, necesita de incluir la librería en el proyecto; tiene un arduo seguimiento, hace 2 semanas fue revisado, así que está en constante actualización en caso de encontrarse algun error.
+Sigue una orientación al lenguaje natural, tiene múltiples palabras reservadas para intentar mejorar de forma intuitiva qué emplea en cada momento, necesita de incluir las dependencias en el proyecto; tiene un arduo seguimiento, hace 2 semanas fue revisado, así que está en constante actualización en caso de encontrarse algun error. Sin embargo declara en su [página oficial](https://pkg.go.dev/github.com/rliebz/ghost) que está en un estado temprano de desarrollo.
 
 ### Assert
 **Según el [repositorio oficial](https://github.com/negrel/assert)**
