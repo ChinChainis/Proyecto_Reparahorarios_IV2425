@@ -16,7 +16,7 @@ func TestSuperposicionHorasAsignaturaCompletamenteSuperpuesta(t *testing.T) {
 	}
 	for _, tt := range asignaturasTesteo {
 		err := NoSuperposicionDeAsignaturasEnGrupo(tt.franjas)
-		assert.Equal(t, err, tt.resultado, "Los resultados deberían ser iguales")
+		assert.Equal(t, err, tt.resultado, "Una asignatura ocupa el horario de otra completamente")
 	}
 }
 
@@ -30,7 +30,7 @@ func TestSuperposicionHorasAsignaturaParcialmenteSuperpuesta(t *testing.T) {
 	}
 	for _, tt := range asignaturasTesteo {
 		err := NoSuperposicionDeAsignaturasEnGrupo(tt.franjas)
-		assert.Equal(t, err, tt.resultado, "Los resultados deberían ser iguales")
+		assert.Equal(t, err, tt.resultado, "Una asignatura coincide parcialmente con otra")
 	}
 }
 
@@ -44,6 +44,6 @@ func TestSuperposicionHorasAsignaturaDiferentesTurnos(t *testing.T) {
 	}
 	for _, tt := range asignaturasTesteo {
 		err := NoSuperposicionDeAsignaturasEnGrupo(tt.franjas)
-		assert.Equal(t, err, tt.resultado, "Los resultados deberían ser iguales")
+		assert.Equal(t, err, tt.resultado, "Horario funciona correctamente")
 	}
 }
