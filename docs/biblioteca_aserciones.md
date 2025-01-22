@@ -3,7 +3,7 @@
 ## Criterios de elección
 - Debe tener un mantenimiento en la actualidad para no aumentar la deuda técnica; descartaremos aquellos cuyos repositorios no hayan tenido actividad de revisión reciente o cuidado con respecto a la actualización del lenguaje Go u otras dependencias a usar.
 - Debe ser compatible con el test runner asignado, permitiendo mostrar mensajes de error según la aserción al test.
-- Evitar aquellas que empleen múltiples instalaciones de librerías externas, daremos prioridad a aquellas optimizadas para el lenguaje go para evitar depender de paquetes o dependencias adicionales.
+- Evitar aquellas que empleen instalaciones de librerías externas, daremos prioridad a aquellas optimizadas para el lenguaje go para evitar depender de paquetes o dependencias adicionales.
 
 ## Opciones disponibles para aserciones:
 
