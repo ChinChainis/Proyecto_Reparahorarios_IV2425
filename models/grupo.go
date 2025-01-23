@@ -60,7 +60,7 @@ func CompruebaSuperposicionesEnSemana(horarioCompleto []FranjaHoraria) (bool, er
 	for contador := 1; contador < 6; contador++ {
 		var contenidoDeUnDia []FranjaHoraria = AnalizaSuperposicionAsignaturaEnDia(horarioCompleto, contador)
 		if SuperposicionConjuntoAsignaturas(contenidoDeUnDia) {
-			return true, fmt.Errorf("superposición encontrada en día %v", Lunes)
+			return true, fmt.Errorf("superposición encontrada en día %v", contador)
 		}
 	}
 	return false, nil
