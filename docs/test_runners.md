@@ -1,7 +1,7 @@
 # Test runners
 
 ## Criterios de elección
-- Debe tener un mantenimiento en la actualidad para no aumentar la deuda técnica; estudiaremos el estado de los repositorios de las cada herramienta para ver su seguimiento.
+- Debe tener un mantenimiento en la actualidad para no aumentar la deuda técnica.
 - Debe necesitar el mínimo de paquetes, bibliotecas o cualquier software secundario para su funcionamiento, se descartará aquellos que necesiten de múltiples elementos externos para el testeo de código.
 ## Opciones disponibles para test runners o frameworks:
 
