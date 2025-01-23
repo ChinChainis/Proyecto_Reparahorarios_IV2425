@@ -33,7 +33,7 @@ func ComparaSolapamientoAsignaturas(asignaturaPrimera FranjaHoraria, asignaturaS
 	}
 }
 
-func SuperposicionEnDia(horariodeldia []FranjaHoraria) bool {
+func SuperposicionConjuntoAsignaturas(horariodeldia []FranjaHoraria) bool {
 	for j := 0; j < len(horariodeldia)-1; j++ {
 		var franjaActual FranjaHoraria = horariodeldia[j]
 		var franjaSiguiente FranjaHoraria = horariodeldia[j+1]
@@ -44,7 +44,7 @@ func SuperposicionEnDia(horariodeldia []FranjaHoraria) bool {
 	return false
 }
 
-func OrganizaDias(horarioEntrada []FranjaHoraria, dia int) []FranjaHoraria {
+func AnalizaSuperposicionAsignaturaEnDia(horarioEntrada []FranjaHoraria, dia int) []FranjaHoraria {
 	var asignaturasDia []FranjaHoraria
 	for i := 0; i < len(horarioEntrada); i++ {
 		if int(horarioEntrada[i].Dia) == dia {
