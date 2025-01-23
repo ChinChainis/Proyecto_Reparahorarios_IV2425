@@ -21,7 +21,7 @@ func NewGrupo(nombre string) (*Grupo, error) {
 	}, nil
 }
 
-func ComparaSolapamientoAsignaturas(asignaturaPrimera FranjaHoraria, asignaturaSecundaria FranjaHoraria) bool {
+func ExisteSolapamientoAsignaturas(asignaturaPrimera FranjaHoraria, asignaturaSecundaria FranjaHoraria) bool {
 	if asignaturaPrimera.Inicio.Hora == asignaturaSecundaria.Inicio.Hora {
 		return true
 	} else if asignaturaPrimera.Inicio.Hora < asignaturaSecundaria.Inicio.Hora &&
@@ -39,7 +39,7 @@ func SuperposicionConjuntoAsignaturas(horariodeldia []FranjaHoraria) bool {
 	for j := 0; j < len(horariodeldia)-1; j++ {
 		var franjaActual FranjaHoraria = horariodeldia[j]
 		var franjaSiguiente FranjaHoraria = horariodeldia[j+1]
-		if ComparaSolapamientoAsignaturas(franjaActual, franjaSiguiente) {
+		if ExisteSolapamientoAsignaturas(franjaActual, franjaSiguiente) {
 			return true
 		}
 	}
