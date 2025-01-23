@@ -6,10 +6,10 @@
 
 ## Opciones disponibles para aserciones:
 
-### Testify
+### Paquete Assert de Testify
 **Según el [repositorio oficial](https://github.com/stretchr/testify)**
 
-Testify es una serie de paquetes de uso bastante extendido poseyendo uno específico para el testeo con aserciones llamado `assert package`. Este paquete es revisado regularmente según el seguimiento de commits de su repositorio y testify es completamente orientado a lenguaje Go, testify/assert asegura que emplea salidas compatible con las funciones de go test lo cual nos interesa si lo tenemos como test runner.
+Testify es una serie de paquetes de uso bastante extendido, pero nos centraremos en uno específico para el testeo con aserciones llamado `assert package`. Este paquete es revisado regularmente según el seguimiento de commits de su repositorio y testify es completamente orientado a lenguaje Go, testify/assert asegura que emplea salidas compatible con las funciones de go test lo cual nos interesa si lo tenemos como test runner.
 
 ### Ghost
 **Según el [repositorio oficial](https://github.com/rliebz/ghost)**
