@@ -13,7 +13,7 @@ Go testing es una función de un paquete nativo del lenguaje Go para testeo auto
 ### Testify
 **Según el estudio de [google trends](https://trends.google.com/trends/explore?date=today%205-y&q=golang%20testify,golang%20goconvey,golang%20ginkgo,golang%20httpexpect,golang%20gomega) y su [repositorio](https://github.com/stretchr/testify)**
 
-Testify es una serie de paquetes de uso bastante extendido, comprende 5 paquetes, cada uno con funcionalidades distintas como aserciones o creación de mockups que a lo mejor no se acaban usando en este proyecto; respecto a su seguimiento es revisado mensualmente para mantener su uso correcto.
+Testify es una serie de paquetes de uso bastante extendido, comprende 5 paquetes siendo interesante su paquete para implementar mockups de los datos del proyecto, muy popular en desarrollo de proyectos grandes; sin embargo requieren de (estudiar)[https://pkg.go.dev/github.com/stretchr/testify/mock] su sintaxis y correcto funcionamiento para un buen desarrollo de estos test por mockup. Respecto a su seguimiento fue actualizado hace un mes a día de escritura de este apartado, es revisado mensualmente para mantener su uso correcto.
 
 ### Ginkgo
 **Según la [página oficial](https://onsi.github.io/ginkgo/) y su [repositorio](https://github.com/onsi/ginkgo)**
