@@ -19,7 +19,7 @@ Sigue una orientación al lenguaje natural, tiene múltiples palabras reservadas
 ### Assert
 **Según el [repositorio oficial](https://github.com/negrel/assert)**
 
-Es un paquete para proyectos en Go basado en el paquete de assert de testify pero más especializado. Necesita importar al proyecto con `import{"github.com/negrel/assert"}` y fue revisada hace un mes desde la escritura de este apartado del documento.
+Es un paquete para proyectos en Go basado en el paquete de assert de testify pero más especializado. Según su (blog de desarrollo e implementación)[https://www.negrel.dev/blog/zero-cost-debug-assertions-in-go/] esta herramienta facilita el uso de variables que no encajan en un tipo de datos específico, ofreciendo solución a los errores de programación más que de tiempo de ejecución. Fue revisada hace un mes desde la escritura de este apartado del documento.
 
 ### Conclusión
 
