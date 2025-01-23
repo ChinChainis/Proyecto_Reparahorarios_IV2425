@@ -43,3 +43,13 @@ func SuperposicionEnDia(horariodeldia []FranjaHoraria) bool {
 	}
 	return false
 }
+
+func OrganizaDias(horarioEntrada []FranjaHoraria, dia int) []FranjaHoraria {
+	var asignaturasDia []FranjaHoraria
+	for i := 0; i < len(horarioEntrada); i++ {
+		if int(horarioEntrada[i].Dia) == dia {
+			asignaturasDia = append(asignaturasDia, horarioEntrada[i])
+		}
+	}
+	return asignaturasDia
+}
