@@ -1,5 +1,7 @@
 package models
 
+import "fmt"
+
 type Grupo struct {
 	Nombre  string
 	Horario *Horario
@@ -52,4 +54,14 @@ func AnalizaSuperposicionAsignaturaEnDia(horarioEntrada []FranjaHoraria, dia int
 		}
 	}
 	return asignaturasDia
+}
+
+func CompruebaSuperposicionesEnSemana(horarioCompleto []FranjaHoraria) (bool, error) {
+	for contador := 1; contador < 6; contador++ {
+		var contenidoDeUnDia []FranjaHoraria = AnalizaSuperposicionAsignaturaEnDia(horarioCompleto, contador)
+		if SuperposicionConjuntoAsignaturas(contenidoDeUnDia) {
+			return true, fmt.Errorf("superposición encontrada en día %v", Lunes)
+		}
+	}
+	return false, nil
 }
