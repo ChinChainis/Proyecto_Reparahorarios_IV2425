@@ -32,3 +32,14 @@ func ComparaSolapamientoAsignaturas(asignaturaPrimera FranjaHoraria, asignaturaS
 		return false
 	}
 }
+
+func SuperposicionEnDia(horariodeldia []FranjaHoraria) bool {
+	for j := 0; j < len(horariodeldia)-1; j++ {
+		var franjaActual FranjaHoraria = horariodeldia[j]
+		var franjaSiguiente FranjaHoraria = horariodeldia[j+1]
+		if ComparaSolapamientoAsignaturas(franjaActual, franjaSiguiente) {
+			return true
+		}
+	}
+	return false
+}
