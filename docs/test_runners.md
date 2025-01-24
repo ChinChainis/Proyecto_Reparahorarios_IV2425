@@ -26,9 +26,8 @@ según su repositorio fue actualizado hace 2 semanas según se escribe este apar
 
 Herramienta de testeo de forma aislada en contenedores para su uso requiere múltiples paquetes para emplear este software. Sin embargo su repositorio es actualizado regularmente, hace escasas horas desde la redacción de este párrafo que se actualizó.
 
+## Conclusión final
 
-### Conclusión
+Go testing al ser una función que es parte del propio lenguaje es actualizada a la par que el lenguaje asegurando que no quede desfasada, es la herramienta más directa y no requiere dependencias externas; permitiendo instalación mínima para el testeo automático de los archivos del proyecto.
 
 **Vamos a emplear go testing como test runner.**
-
-Go testing es la herramienta más directa y es nativa del lenguaje Go, permitiendo instalación mínima para el testeo automático de los archivos del proyecto.
