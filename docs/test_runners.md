@@ -24,7 +24,7 @@ según su repositorio fue actualizado hace 2 semanas según se escribe este apar
 ### Maelstrom
 **Según una discusión sobre el tema en [reddit](https://www.reddit.com/r/golang/comments/t29c4d/looking_for_a_test_runner_like_pytest/) y su [repositorio](https://github.com/maelstrom-software/maelstrom)**
 
-Herramienta de testeo de forma aislada en contenedores para su uso requiere múltiples paquetes para emplear este software. Sin embargo su repositorio es actualizado regularmente, hace escasas horas desde la redacción de este párrafo que se actualizó.
+Conjunto de herramientas de ejecución de test de forma aislada en 'micro-contenedores', requiere de la instalación del nodo de Maelstrom que contiene varios paquetes. Sin embargo su repositorio oficial es actualizado regularmente, desde la última revisión de este apartado se actualizó hace 3 días.
 
 ## Conclusión final
 
