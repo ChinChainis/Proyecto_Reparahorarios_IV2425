@@ -19,10 +19,10 @@ Sigue una orientación al lenguaje natural, tiene múltiples palabras reservadas
 ### Assert
 **Según el [repositorio oficial](https://github.com/negrel/assert)**
 
-Es un paquete para proyectos en Go basado en el paquete de assert de testify pero más especializado. Según su (blog de desarrollo e implementación)[https://www.negrel.dev/blog/zero-cost-debug-assertions-in-go/] esta herramienta facilita el uso de variables que no encajan en un tipo de datos específico, ofreciendo solución a los errores de programación más que de tiempo de ejecución. Fue revisada hace un mes desde la escritura de este apartado del documento.
+Es un paquete para proyectos en Go basado en el paquete de assert de testify pero más especializado. Según su (blog de desarrollo e implementación)[https://www.negrel.dev/blog/zero-cost-debug-assertions-in-go/] esta herramienta facilita el uso de variables que no encajan en un tipo de datos específico, ofreciendo solución a los errores de programación más que de tiempo de ejecución. 
+Fue revisada hace un mes desde la escritura de este apartado del documento, se puede saber más de su funcionamineto en la (página)[https://pkg.go.dev/gotest.tools/v3/assert] del paquete.
 
-### Conclusión
-
+## Conclusión
 **De momento vamos a emplear go testify, concretamente el paquete assert de go testify.**
 
 Es la biblioteca más extendida además de tener gran compatiblidad con el test runner empleado, probaremos sus métodos para comparar las entradas y salidas de estructuras de datos.
