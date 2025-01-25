@@ -23,9 +23,8 @@ según su repositorio fue actualizado hace 2 semanas según se escribe este apar
 
 ### Maelstrom
 **Según una discusión sobre el tema en [reddit](https://www.reddit.com/r/golang/comments/t29c4d/looking_for_a_test_runner_like_pytest/) y su [repositorio](https://github.com/maelstrom-software/maelstrom)**
-
-Conjunto de herramientas de ejecución de test de forma aislada en 'micro-contenedores', explicado su proceso interno en su (página web)[https://maelstrom-software.com/], requiere de la instalación del nodo de Maelstrom que contiene varios paquetes. Sin embargo su repositorio oficial es actualizado regularmente, desde la última revisión de este apartado se actualizó hace 3 días.
-
+Conjunto de herramientas de ejecución de test de forma aislada en micro-contenedores (como contenedores docker), más acerca de su proceso interno en su (página web)[https://maelstrom-software.com/], requiere de la instalación del nodo de Maelstrom que contiene varios paquetes. 
+Sin embargo su repositorio oficial es actualizado regularmente, desde la última revisión de este apartado se actualizó hace 4 días.
 ## Conclusión final
 Go testing al ser una función que es parte del propio lenguaje es actualizada a la par que el lenguaje asegurando que no quede desfasada, es la herramienta más directa y no requiere dependencias externas; permitiendo instalación mínima para el testeo automático de los archivos del proyecto.
 
