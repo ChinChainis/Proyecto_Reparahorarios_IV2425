@@ -57,10 +57,10 @@ func AnalizaSuperposicionAsignaturaEnDia(horarioEntrada []FranjaHoraria, dia int
 }
 
 func CompruebaSuperposicionesEnSemana(horarioCompleto []FranjaHoraria) (bool, error) {
-	for contador := 1; contador < 6; contador++ {
-		var contenidoDeUnDia []FranjaHoraria = AnalizaSuperposicionAsignaturaEnDia(horarioCompleto, contador)
+	for diaLaboral := 1; diaLaboral < 6; diaLaboral++ {
+		var contenidoDeUnDia []FranjaHoraria = AnalizaSuperposicionAsignaturaEnDia(horarioCompleto, diaLaboral)
 		if SuperposicionConjuntoAsignaturas(contenidoDeUnDia) {
-			return true, fmt.Errorf("superposición encontrada en día %v", contador)
+			return true, fmt.Errorf("superposición encontrada en día %v", diaLaboral)
 		}
 	}
 	return false, nil
