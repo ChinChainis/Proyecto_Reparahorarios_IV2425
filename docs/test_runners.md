@@ -27,5 +27,4 @@ Conjunto de herramientas de ejecución de test de forma aislada en micro-contene
 Su repositorio oficial es actualizado regularmente, desde la última revisión de este apartado se actualizó hace 4 días.
 ## Conclusión Final
 Go testing al ser una función parte del propio lenguaje es actualizada junto al lenguaje asegurando que no quede desfasada, es la herramienta más directa y no requiere dependencias externas; permitiendo instalación mínima para el testeo automático de los archivos del proyecto. 
-
-**Vamos a emplear go testing como test runner.**
+Por ello: **Vamos a emplear go testing como test runner.**
