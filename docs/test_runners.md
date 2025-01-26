@@ -21,10 +21,12 @@ Testify es una serie de paquetes de uso bastante extendido, comprende 5 paquetes
 Diseñado exclusivamente para go, es un framework de testeo que emplea test centrados en el uso de DSL(Domain Specific Language),
 según su repositorio fue actualizado hace 2 semanas según se escribe este apartado.
 
-### Paquete Maelstrom
+### Maelstrom
 **Según su [repositorio](https://github.com/maelstrom-software/maelstrom) y una respuesta de una discusión sobre el tema en [reddit](https://www.reddit.com/r/golang/comments/t29c4d/looking_for_a_test_runner_like_pytest/)**
+
 Conjunto de herramientas de ejecución de test de forma aislada en micro-contenedores (similares contenedores docker), más acerca de su proceso interno en su (página web)[https://maelstrom-software.com/], requiere de la instalación del nodo de Maelstrom que contiene varios paquetes. 
 Su repositorio oficial es actualizado regularmente, desde la última revisión de este apartado se actualizó hace 4 días.
+
 ## Conclusión Final
 Go testing al ser una función parte del propio lenguaje es actualizada junto al lenguaje asegurando que no quede desfasada, es la herramienta más directa y no requiere dependencias externas; permitiendo instalación mínima para el testeo automático de los archivos del proyecto. 
-Por ello: **Vamos a emplear go testing como test runner.**
+**Vamos a emplear go testing como test runner.**
