@@ -76,7 +76,7 @@ func haceHorarioDeUnDia(asignaturasEntrada []FranjaHoraria, dia DiaSemana) ([]Fr
 		}
 	}
 	if SuperposicionConjuntoAsignaturas(horarioSalida) {
-		return nil, fmt.Errorf("horario incompleto")
+		return nil, fmt.Errorf("horario con superposiciones")
 	} else {
 		return horarioSalida, nil
 	}
