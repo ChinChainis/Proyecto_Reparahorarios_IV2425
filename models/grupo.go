@@ -66,7 +66,7 @@ func CompruebaSuperposicionesEnSemana(horarioCompleto []FranjaHoraria) (bool, er
 	return false, nil
 }
 
-func haceHorario(asignaturasEntrada []FranjaHoraria, dia DiaSemana) ([]FranjaHoraria, error) {
+func haceHorarioDeUnDia(asignaturasEntrada []FranjaHoraria, dia DiaSemana) ([]FranjaHoraria, error) {
 	var horarioSalida []FranjaHoraria
 	var horarioEntradaDia = AnalizaSuperposicionAsignaturaEnDia(asignaturasEntrada, int(dia))
 	horarioSalida = append(horarioSalida, asignaturasEntrada[0])
