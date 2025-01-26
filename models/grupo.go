@@ -81,3 +81,16 @@ func haceHorarioDeUnDia(asignaturasEntrada []FranjaHoraria, dia DiaSemana) ([]Fr
 		return horarioSalida, nil
 	}
 }
+
+func horarioDeUnaSemana(horarioCompleto []FranjaHoraria) ([]FranjaHoraria, error) {
+	var contenidoSemana []FranjaHoraria
+	for diaActual := 1; diaActual < 6; diaActual++ {
+		contenidoSemana, _ = haceHorarioDeUnDia(horarioCompleto, DiaSemana(diaActual))
+	}
+	var superposicionSemana, _ = CompruebaSuperposicionesEnSemana(contenidoSemana)
+	if superposicionSemana {
+		return nil, fmt.Errorf("horario con superposiciones")
+	} else {
+		return contenidoSemana, nil
+	}
+}
