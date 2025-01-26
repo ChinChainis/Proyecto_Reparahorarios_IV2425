@@ -34,7 +34,7 @@ func TestGeneracionHorario(t *testing.T) {
 			{Martes, HoraMinuto{16, MinutoCero}, UnaHora, "fisica", Tarde}}, dia: Martes},
 	}
 	for _, tt := range franjasTesteo {
-		res, err := haceHorario(tt.franjas, tt.dia)
+		res, err := haceHorarioDeUnDia(tt.franjas, tt.dia)
 		assert.Equal(t, len(res), 3, "horario esperado")
 		assert.NoError(t, err)
 	}
