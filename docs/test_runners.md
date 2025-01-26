@@ -27,6 +27,7 @@ según su repositorio fue actualizado hace 2 semanas según se escribe este apar
 Conjunto de herramientas de ejecución de test de forma aislada en micro-contenedores (similares contenedores docker), más acerca de su proceso interno en su (página web)[https://maelstrom-software.com/], requiere de la instalación del nodo de Maelstrom que contiene varios paquetes. 
 Su repositorio oficial es actualizado regularmente, desde la última revisión de este apartado se actualizó hace 4 días.
 
-## Conclusión Final
+## Conclusión final
 Go testing al ser una función parte del propio lenguaje es actualizada junto al lenguaje asegurando que no quede desfasada, es la herramienta más directa y no requiere dependencias externas; permitiendo instalación mínima para el testeo automático de los archivos del proyecto. 
+
 **Vamos a emplear go testing como test runner.**
