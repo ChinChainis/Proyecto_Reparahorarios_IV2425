@@ -1,6 +1,9 @@
 package models
 
-import "fmt"
+import (
+	"fmt"
+	"slices"
+)
 
 type Grupo struct {
 	Nombre  string
@@ -84,13 +87,15 @@ func haceHorarioDeUnDia(asignaturasEntrada []FranjaHoraria, dia DiaSemana) ([]Fr
 
 func horarioDeUnaSemana(horarioCompleto []FranjaHoraria) ([]FranjaHoraria, error) {
 	var contenidoSemana []FranjaHoraria
+	var horarioSemanalResultante []FranjaHoraria
 	for diaActual := 1; diaActual < 6; diaActual++ {
 		contenidoSemana, _ = haceHorarioDeUnDia(horarioCompleto, DiaSemana(diaActual))
+		horarioSemanalResultante = slices.Concat(horarioSemanalResultante, contenidoSemana)
 	}
 	var superposicionSemana, _ = CompruebaSuperposicionesEnSemana(contenidoSemana)
 	if superposicionSemana {
 		return nil, fmt.Errorf("horario con superposiciones")
 	} else {
-		return contenidoSemana, nil
+		return horarioSemanalResultante, nil
 	}
 }
