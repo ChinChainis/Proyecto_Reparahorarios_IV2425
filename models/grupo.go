@@ -69,15 +69,24 @@ func CompruebaSuperposicionesEnSemana(horarioCompleto []FranjaHoraria) (bool, er
 	return false, nil
 }
 
+func rellenaHorario(franjasRelleno []FranjaHoraria) []FranjaHoraria {
+	var horarioARellenar []FranjaHoraria
+	horarioARellenar = append(horarioARellenar, franjasRelleno[0])
+	for i := 1; i < len(franjasRelleno); i++ {
+		if !ExisteSolapamientoAsignaturas(franjasRelleno[i-1], franjasRelleno[i]) {
+			horarioARellenar = append(horarioARellenar, franjasRelleno[i])
+		}
+	}
+	return horarioARellenar
+}
+
 func haceHorarioDeUnDia(asignaturasEntrada []FranjaHoraria, dia DiaSemana) ([]FranjaHoraria, error) {
 	var horarioSalida []FranjaHoraria
 	var horarioEntradaDia = AnalizaSuperposicionAsignaturaEnDia(asignaturasEntrada, int(dia))
-	horarioSalida = append(horarioSalida, asignaturasEntrada[0])
-	for i := 1; i < len(horarioEntradaDia); i++ {
-		if !ExisteSolapamientoAsignaturas(horarioEntradaDia[i-1], horarioEntradaDia[i]) {
-			horarioSalida = append(horarioSalida, horarioEntradaDia[i])
-		}
+	if len(horarioEntradaDia) > 0 {
+		horarioSalida = rellenaHorario(horarioEntradaDia)
 	}
+
 	if SuperposicionConjuntoAsignaturas(horarioSalida) {
 		return nil, fmt.Errorf("horario con superposiciones en %v", dia)
 	} else {
