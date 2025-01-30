@@ -10,3 +10,6 @@
 
 Viene junto a la instalación del lenguaje, fácil de emplear debido a la falta de configuración o descarga de cualquier paquete externo, mediante pruebas vemos que la imagen ocupa unos 868MB y es actualizado regularmente según su página correspondiente de Dockerhub, siendo la última hace 9 días.
 
+### Imagen oficial de (Ubuntu)[https://hub.docker.com/_/ubuntu]
+
+Puesto que el sistema operativo que empleamos es Ubuntu también nos resulta fácil de preparar su instalación, la imagen ocupa 868MB similar a la de Golang y es revisada mensualmente.
