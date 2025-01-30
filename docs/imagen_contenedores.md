@@ -6,5 +6,7 @@
 
 ## Opciones disponibles de imágenes para Golang:
 
-### Imagen oficial de Golang
+### Imagen oficial de (Golang)[https://hub.docker.com/_/golang]
+
+Viene junto a la instalación del lenguaje, fácil de emplear debido a la falta de configuración o descarga de cualquier paquete externo, mediante pruebas vemos que la imagen ocupa unos 868MB y es actualizado regularmente según su página correspondiente de Dockerhub, siendo la última hace 9 días.
 
