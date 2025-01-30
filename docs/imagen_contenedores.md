@@ -13,3 +13,7 @@ Viene junto a la instalación del lenguaje, fácil de emplear debido a la falta 
 ### Imagen oficial de (Ubuntu)[https://hub.docker.com/_/ubuntu]
 
 Puesto que el sistema operativo que empleamos es Ubuntu también nos resulta fácil de preparar su instalación, la imagen ocupa 868MB similar a la de Golang y es revisada mensualmente.
+
+### Golang:(Alpine)[https://hub.docker.com/_/ubuntu]
+
+Alpine es un sistema operativo centrado en la seguridad y emplea tablas musl para codificar información, permitiendo un método de compresión mejor obteniendo un tamaño de 249MB (para este proyecto va bien pero según discusiones en (reddit)[https://www.reddit.com/r/golang/comments/t7hsps/building_a_docker_image_for_a_go_programm/] este tipo de tablas pueden dar lugar a bastantes problemas a la hora de almacenar según qué datos) y cuenta con revisiones recientes, la última siendo hace 22 días.
