@@ -66,34 +66,21 @@ func CompruebaSuperposicionesEnSemana(horarioCompleto []FranjaHoraria) (bool, er
 		var contenidoDeUnDia []FranjaHoraria = AnalizaSuperposicionAsignaturaEnDia(horarioCompleto, diaLaboral)
 		estado = SuperposicionConjuntoAsignaturas(contenidoDeUnDia)
 	}
-
-	return estado
-
-	for diaLaboral := 1; diaLaboral < 6; diaLaboral++ {
-		var contenidoDeUnDia []FranjaHoraria = AnalizaSuperposicionAsignaturaEnDia(horarioCompleto, diaLaboral)
-		if SuperposicionConjuntoAsignaturas(contenidoDeUnDia) {
-			return true, fmt.Errorf("superposición encontrada en día %v", diaLaboral)
-		}
+	if estado {
+		return true, fmt.Errorf("superposición encontrada en día %v", diaLaboral)
+	} else {
+		return estado, nil
 	}
-	return false, nil
-}
 
-func rellenaHorario(franjasRelleno []FranjaHoraria) []FranjaHoraria {
-	var horarioARellenar []FranjaHoraria
-	horarioARellenar = append(horarioARellenar, franjasRelleno[0])
-	for i := 1; i < len(franjasRelleno); i++ {
-		if !ExisteSolapamientoAsignaturas(franjasRelleno[i-1], franjasRelleno[i]) {
-			horarioARellenar = append(horarioARellenar, franjasRelleno[i])
-		}
-	}
-	return horarioARellenar
 }
 
 func haceHorarioDeUnDia(asignaturasEntrada []FranjaHoraria, dia DiaSemana) ([]FranjaHoraria, error) {
 	var horarioSalida []FranjaHoraria
 	var horarioEntradaDia = AnalizaSuperposicionAsignaturaEnDia(asignaturasEntrada, int(dia))
-	if len(horarioEntradaDia) > 0 {
-		horarioSalida = rellenaHorario(horarioEntradaDia)
+	var superposicionEnDia bool
+	superposicionEnDia, _ = CompruebaSuperposicionesEnSemana(horarioEntradaDia)
+	if len(horarioEntradaDia) > 0 || superposicionEnDia {
+		horarioSalida = horarioEntradaDia
 	}
 
 	if SuperposicionConjuntoAsignaturas(horarioSalida) {
