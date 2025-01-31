@@ -6,7 +6,7 @@ COPY . .
 
 RUN apk add --no-cache just
 
-USER tester
+USER antoniosanchz
 
 
 ENTRYPOINT ["just", "test"]
