@@ -62,7 +62,7 @@ func AnalizaSuperposicionAsignaturaEnDia(horarioEntrada []FranjaHoraria, dia int
 func CompruebaSuperposicionesEnSemana(horarioCompleto []FranjaHoraria) (bool, error) {
 	diaLaboral := 1
 	var estado bool
-	for diaLaboral < 6 || estado == true {
+	for diaLaboral < 6 || estado {
 		var contenidoDeUnDia []FranjaHoraria = AnalizaSuperposicionAsignaturaEnDia(horarioCompleto, diaLaboral)
 		estado = SuperposicionConjuntoAsignaturas(contenidoDeUnDia)
 	}
