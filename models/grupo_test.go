@@ -30,12 +30,12 @@ func TestGeneracionHorario(t *testing.T) {
 		{franjas: []FranjaHoraria{{Lunes, HoraMinuto{8, MinutoCero}, DosHoras, "fisica", Manana},
 			{Lunes, HoraMinuto{12, MinutoCero}, DosHoras, "mates", Manana},
 			{Martes, HoraMinuto{8, MinutoCero}, DosHoras, "lengua", Manana},
-			{Martes, HoraMinuto{10, MinutoCero}, DosHoras, "mates", Manana},
+			{Martes, HoraMinuto{9, MinutoCero}, DosHoras, "mates", Manana},
 			{Martes, HoraMinuto{16, MinutoCero}, UnaHora, "fisica", Tarde}}, dia: Martes},
 	}
 	for _, tt := range franjasTesteo {
 		res, err := haceHorarioDeUnDia(tt.franjas, tt.dia)
-		assert.Equal(t, 3, len(res), "horario esperado")
+		assert.Equal(t, 2, len(res), "horario esperado")
 		assert.NoError(t, err)
 	}
 }
