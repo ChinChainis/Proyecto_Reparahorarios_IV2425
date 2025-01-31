@@ -28,3 +28,10 @@ Análisis de los test runner planteados en [test_runners.md](https://github.com/
 > `just test`
 
 Ejecuta ficheros de testeo de las entidades del proyecto.
+
+## Docker
+Análisis de la imagen escogida para el contenedor en [imagen_contenedores.md](https://github.com/ChinChainis/Proyecto_Reparahorarios_IV2425/blob/Objetivo-5/docs/imagen_contenedores.md)
+
+> `docker build . -t <repositorio>:<etiqueta>`
+
+Ejecuta ficheros de testeo de las entidades del proyecto.
