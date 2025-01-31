@@ -36,4 +36,4 @@ Análisis de la imagen escogida para el contenedor en [imagen_contenedores.md](h
 
 Ejecuta ficheros de testeo de las entidades del proyecto descargando remotamente la imagen del contenedor.
 
-> `docker run -u 1001 -t -v `pwd`:/app/test antoniosanchz/reparahorarios:v1.0`
+> `docker run -u 1001 -t -v `pwd`:/app/test antoniosanchz/proyecto_reparahorarios_iv2425:latest`
