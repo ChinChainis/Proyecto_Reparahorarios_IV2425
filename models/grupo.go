@@ -39,14 +39,13 @@ func ExisteSolapamientoAsignaturas(asignaturaPrimera FranjaHoraria, asignaturaSe
 }
 
 func SuperposicionConjuntoAsignaturas(horariodeldia []FranjaHoraria) bool {
-	for j := 0; j < len(horariodeldia)-1; j++ {
+	var superposicion bool = false
+	for j := 0; j < len(horariodeldia)-1 || !superposicion; j++ {
 		var franjaActual FranjaHoraria = horariodeldia[j]
 		var franjaSiguiente FranjaHoraria = horariodeldia[j+1]
-		if ExisteSolapamientoAsignaturas(franjaActual, franjaSiguiente) {
-			return true
-		}
+		superposicion = ExisteSolapamientoAsignaturas(franjaActual, franjaSiguiente)
 	}
-	return false
+	return superposicion
 }
 
 func AnalizaSuperposicionAsignaturaEnDia(horarioEntrada []FranjaHoraria, dia int) []FranjaHoraria {
