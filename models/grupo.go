@@ -40,7 +40,7 @@ func ExisteSolapamientoAsignaturas(asignaturaPrimera FranjaHoraria, asignaturaSe
 
 func SuperposicionConjuntoAsignaturas(horariodeldia []FranjaHoraria) bool {
 	var superposicion bool = false
-	for j := 0; j < len(horariodeldia)-1 || !superposicion; j++ {
+	for j := 0; j < len(horariodeldia)-1 && !superposicion; j++ {
 		var franjaActual FranjaHoraria = horariodeldia[j]
 		var franjaSiguiente FranjaHoraria = horariodeldia[j+1]
 		superposicion = ExisteSolapamientoAsignaturas(franjaActual, franjaSiguiente)
@@ -60,8 +60,8 @@ func AnalizaSuperposicionAsignaturaEnDia(horarioEntrada []FranjaHoraria, dia int
 
 func CompruebaSuperposicionesEnSemana(horarioCompleto []FranjaHoraria) (bool, error) {
 	diaLaboral := 1
-	var estado bool
-	for diaLaboral < 6 || estado {
+	var estado bool = false
+	for diaLaboral := 1; diaLaboral < 6 && !estado; diaLaboral++ {
 		var contenidoDeUnDia []FranjaHoraria = AnalizaSuperposicionAsignaturaEnDia(horarioCompleto, diaLaboral)
 		estado = SuperposicionConjuntoAsignaturas(contenidoDeUnDia)
 	}
