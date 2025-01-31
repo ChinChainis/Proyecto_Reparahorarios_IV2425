@@ -38,7 +38,7 @@ func ExisteSolapamientoAsignaturas(asignaturaPrimera FranjaHoraria, asignaturaSe
 	}
 }
 
-func SuperposicionConjuntoAsignaturas(horariodeldia []FranjaHoraria) bool {
+func RevisaSuperposicionConjuntoAsignaturas(horariodeldia []FranjaHoraria) bool {
 	var superposicion bool = false
 	for j := 0; j < len(horariodeldia)-1 && !superposicion; j++ {
 		var franjaActual FranjaHoraria = horariodeldia[j]
@@ -48,7 +48,7 @@ func SuperposicionConjuntoAsignaturas(horariodeldia []FranjaHoraria) bool {
 	return superposicion
 }
 
-func AnalizaSuperposicionAsignaturaEnDia(horarioEntrada []FranjaHoraria, dia int) []FranjaHoraria {
+func ExtraeAsignaturasDeUnDia(horarioEntrada []FranjaHoraria, dia int) []FranjaHoraria {
 	var asignaturasDia []FranjaHoraria
 	for i := 0; i < len(horarioEntrada); i++ {
 		if int(horarioEntrada[i].Dia) == dia {
@@ -62,8 +62,8 @@ func CompruebaSuperposicionesEnSemana(horarioCompleto []FranjaHoraria) (bool, er
 	diaLaboral := 1
 	var estado bool = false
 	for diaLaboral := 1; diaLaboral < 6 && !estado; diaLaboral++ {
-		var contenidoDeUnDia []FranjaHoraria = AnalizaSuperposicionAsignaturaEnDia(horarioCompleto, diaLaboral)
-		estado = SuperposicionConjuntoAsignaturas(contenidoDeUnDia)
+		var contenidoDeUnDia []FranjaHoraria = ExtraeAsignaturasDeUnDia(horarioCompleto, diaLaboral)
+		estado = RevisaSuperposicionConjuntoAsignaturas(contenidoDeUnDia)
 	}
 	if estado {
 		return true, fmt.Errorf("superposición encontrada en día %v", diaLaboral)
@@ -86,12 +86,12 @@ func rellenaHorario(franjasRelleno []FranjaHoraria) []FranjaHoraria {
 
 func haceHorarioDeUnDia(asignaturasEntrada []FranjaHoraria, dia DiaSemana) ([]FranjaHoraria, error) {
 	var horarioSalida []FranjaHoraria
-	var horarioEntradaDia = AnalizaSuperposicionAsignaturaEnDia(asignaturasEntrada, int(dia))
+	var horarioEntradaDia = ExtraeAsignaturasDeUnDia(asignaturasEntrada, int(dia))
 	if len(horarioEntradaDia) > 0 {
 		horarioSalida = rellenaHorario(horarioEntradaDia)
 	}
 
-	if SuperposicionConjuntoAsignaturas(horarioSalida) {
+	if RevisaSuperposicionConjuntoAsignaturas(horarioSalida) {
 		return nil, fmt.Errorf("horario con superposiciones en %v", dia)
 	} else {
 		return horarioSalida, nil
