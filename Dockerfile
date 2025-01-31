@@ -1,6 +1,6 @@
 FROM golang:alpine
 
-WORKDIR /app
+WORKDIR /app/test
 
 COPY . .
 
