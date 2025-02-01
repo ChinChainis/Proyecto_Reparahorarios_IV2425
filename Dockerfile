@@ -1,5 +1,7 @@
 FROM golang:alpine
 
+RUN useradd -ms /bin/bash antoniosanchz
+
 WORKDIR /app/test
 
 COPY . .
