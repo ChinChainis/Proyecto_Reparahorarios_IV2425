@@ -3,6 +3,7 @@ go := env_var_or_default("GO", "go")
 
 test:
     @echo "testing"
+    go test -v {{code_folder}}
 
 clean:
     rm -rf bin/

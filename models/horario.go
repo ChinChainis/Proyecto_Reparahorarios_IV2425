@@ -1,11 +1,11 @@
 package models
 
 type Horario struct {
-    Horario []FranjaHoraria
+	Horario []FranjaHoraria
 }
 
 func NewHorario() (*Horario, error) {
-    return &Horario{
-        Horario: []FranjaHoraria{}, 
-    }, nil
+	return &Horario{
+		Horario: []FranjaHoraria{},
+	}, nil
 }
