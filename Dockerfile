@@ -1,6 +1,6 @@
 FROM golang:alpine
 
-RUN useradd -ms /bin/bash antoniosanchz
+RUN adduser -D -g '' antoniosanchz
 
 WORKDIR /app/test
 
